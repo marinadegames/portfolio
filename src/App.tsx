@@ -4,6 +4,8 @@ import {Header} from "./Components/Header/Header";
 import s from './App.module.css'
 import {Main} from "./Components/Main/Main";
 import {Skills} from "./Components/Skills/Skills";
+import {MyWorks} from "./Components/MyWorks/MyWorks";
+
 
 // component
 function App() {
@@ -12,6 +14,7 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
+            <MyWorks/>
         </div>
     );
 }

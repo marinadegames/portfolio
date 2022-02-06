@@ -6,7 +6,6 @@ import s from './UniversalButton.module.css'
 type PropsType = {
     title: string
     logo?: any
-
 }
 
 // component

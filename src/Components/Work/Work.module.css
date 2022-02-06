@@ -1,0 +1,36 @@
+.work {
+    padding: 40px;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+
+    border-radius: 50px;
+
+    /*background-color: var(--second_light_color);*/
+    color: var(--second_light_color);
+    box-shadow: var(--shadow);
+
+    cursor: pointer;
+    transition: 0.3s;
+    background-size: cover;
+    position: relative;
+
+    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url("../../assets/ToDo_PREV.png");*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size:  cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.title{
+
+}
