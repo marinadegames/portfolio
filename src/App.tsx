@@ -5,6 +5,8 @@ import s from './App.module.css'
 import {Main} from "./Components/Main/Main";
 import {Skills} from "./Components/Skills/Skills";
 import {MyWorks} from "./Components/MyWorks/MyWorks";
+import {Offer} from "./Components/Offer/Offer";
+import {Contacts} from "./Components/Contacts/Contacts";
 
 
 // component
@@ -15,6 +17,8 @@ function App() {
             <Main/>
             <Skills/>
             <MyWorks/>
+            <Offer/>
+            <Contacts/>
         </div>
     );
 }
