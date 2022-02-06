@@ -1,6 +1,7 @@
 .mainBlock {
     height: 90vh;
     color: var(--second_light_color);
+
 }
 .mainBlockContainer {
     height: 90%;

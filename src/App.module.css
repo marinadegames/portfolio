@@ -8,9 +8,10 @@
 }
 
 body {
-    /*color: var(--second_light_color);*/
+
     background: var(--gradient_color);
-    /*background-color: var(--second_light_color);*/
+    background-color: var(--general_color);
+    background-size: cover;
 }
 .App {
 
