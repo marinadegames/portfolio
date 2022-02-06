@@ -1,0 +1,33 @@
+.Logo {
+    display: flex;
+    align-items: center;
+
+    height: 70px;
+    width: 200px;
+    color: var(--second_light_color);
+}
+
+.Logo span  {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: var(--second_light_color);
+}
+
+.Logo span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: var(--second_light_color);
+}
+
+.Logo span:hover:before {
+    height: 2px;
+}
+
+.Logo span::before {
+    transition: height 0.1s;
+}

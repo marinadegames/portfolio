@@ -1,0 +1,17 @@
+/* ROOT CONSTANTS */
+:root {
+    --general_color: #157F99;
+    --general_light_color: #DFBFAA;
+    --second_light_color: #F6ECE2;
+    --gradient_color: linear-gradient(111.23deg, #157F99 31.92%, #DFBFAA 79.94%);
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body {
+    /*color: var(--second_light_color);*/
+    background: var(--gradient_color);
+    /*background-color: var(--second_light_color);*/
+}
+.App {
+
+}
