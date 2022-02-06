@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c591cb69.css",
+    "main.js": "/portfolio/static/js/main.8ac8e927.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MOON_MSG_PREV.png": "/portfolio/static/media/MOON_MSG_PREV.c2ff8864269f17b99f93.png",
+    "static/media/ToDo_PREV.png": "/portfolio/static/media/ToDo_PREV.9e4445fd6f522db9055b.png",
+    "static/media/COUNTER.png": "/portfolio/static/media/COUNTER.77ec73f574da66ef27de.png",
+    "index.html": "/portfolio/index.html",
+    "main.c591cb69.css.map": "/portfolio/static/css/main.c591cb69.css.map",
+    "main.8ac8e927.js.map": "/portfolio/static/js/main.8ac8e927.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c591cb69.css",
+    "static/js/main.8ac8e927.js"
+  ]
+}
