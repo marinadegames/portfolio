@@ -20,8 +20,6 @@ export const Skills = () => {
                     <Skill title={'React'}
                            description={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
                     />
-                </div>
-                <div className={s.skills}>
                     <Skill title={'REST API'}
                            icon={''}
                            description={'Lorem ipsum dolor sit amet, labore et dolore magna aliqua. An quis nostrud.'}

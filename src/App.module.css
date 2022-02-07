@@ -16,3 +16,13 @@ body {
 .App {
 
 }
+
+
+
+/* MEDIA */
+
+@media (max-width: 767px) {
+    body {
+        margin: 20px;
+    }
+}

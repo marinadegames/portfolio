@@ -1,8 +1,8 @@
 .mainBlock {
     height: 90vh;
     color: var(--second_light_color);
-
 }
+
 .mainBlockContainer {
     height: 90%;
     width: 90%;
@@ -22,3 +22,46 @@
     background-color: #DFBFAA;
     border-radius: 300px;
 }
+
+
+/* ===== MEDIA ===== */
+
+
+@media (max-width: 767px) {
+    .mainBlockContainer {
+        flex-direction: column;
+    }
+    .text {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+    .mainBlockContainer {
+        flex-direction: column;
+    }
+    .text {
+        width: auto;
+    }
+}
+
+@media (min-width: 1141px) and (max-width: 1559px){
+
+}
+
+@media (min-width: 1660px) {
+
+}
+
+/*
+mobile
+360-567-767
+
+tablet
+768 - 980 - 1140
+
+desktop
+1141 ++++
+
+
+*/

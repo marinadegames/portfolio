@@ -1,6 +1,7 @@
 .MyWorksBlock{
-    height: 80vh;
+    height:auto;
     color: var(--second_light_color);
+    margin: 0 0 150px 0;
 }
 
 
@@ -20,4 +21,32 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .works {
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+
+    .works {
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 1141px) and (max-width: 1670px){
+    .works {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1671px) {
+
 }

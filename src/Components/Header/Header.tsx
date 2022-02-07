@@ -10,9 +10,15 @@ import {Logo} from "../Logo/Logo";
 export const Header = () => {
     return (
         <div className={s.Header}>
-            <Logo/>
-            <Nav/>
-            <UniversalButton title={'email'}/>
+            <div className={s.HeaderDesktop}>
+                <Logo/>
+                <Nav/>
+                <UniversalButton title={'email'}/>
+            </div>
+            <div className={s.HeaderMobile}>
+                <button className={s.burgerMenu}>menu</button>
+                <Logo/>
+            </div>
         </div>
     )
 }

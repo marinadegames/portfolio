@@ -21,6 +21,7 @@ export const Work = (props: PropsType) => {
                 <span>{props.description}</span>
                 <UniversalButton title={'show'}/>
             </div>
+
         </div>
     )
 }
