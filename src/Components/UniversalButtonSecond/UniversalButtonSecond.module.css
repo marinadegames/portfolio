@@ -2,7 +2,7 @@
     border: 2px solid var(--general_color);
     background-color: transparent;
     color: var(--general_color);
-
+    width: 440px;
     border-radius: 50px;
     padding: 8px 23px;
     cursor: pointer;
