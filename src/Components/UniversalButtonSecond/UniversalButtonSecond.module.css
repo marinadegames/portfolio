@@ -9,6 +9,7 @@
 
     transition: ease-in-out 0.3s;
 }
+
 .UniversalButtonSecond:hover {
     color: var(--second_light_color);
     background-color: var(--general_color);

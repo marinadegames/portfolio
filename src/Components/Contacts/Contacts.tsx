@@ -1,8 +1,6 @@
 // imports
 import React from "react";
 import s from './Contacts.module.css'
-import {UniversalButton} from "../UniversalButton/UniversalButton";
-import {UniversalButtonSecond} from "../UniversalButtonSecond/UniversalButtonSecond";
 
 // types
 
@@ -20,7 +18,7 @@ export const Contacts = () => {
                     <textarea placeholder={'Message'}/>
                 </form>
 
-                <UniversalButtonSecond title={'send!'}/>
+                <button className={s.btnSendMe}>send</button>
             </div>
         </div>
     )
