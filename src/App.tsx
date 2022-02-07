@@ -7,6 +7,7 @@ import {Skills} from "./Components/Skills/Skills";
 import {MyWorks} from "./Components/MyWorks/MyWorks";
 import {Offer} from "./Components/Offer/Offer";
 import {Contacts} from "./Components/Contacts/Contacts";
+import {Footer} from "./Components/Footer/Footer";
 
 
 // component
@@ -19,6 +20,7 @@ function App() {
             <MyWorks/>
             <Offer/>
             <Contacts/>
+            <Footer/>
         </div>
     );
 }
