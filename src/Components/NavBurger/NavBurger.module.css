@@ -1,0 +1,34 @@
+.NavBurger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.NavBurger a {
+    position: relative;
+    text-decoration: none;
+    color: var(--second_light_color);
+    margin: 0 0 5px 0;
+    font-size: 1.5em;
+}
+
+.NavBurger a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: 0;
+    background-color: var(--second_light_color);
+}
+
+.NavBurger a:hover:before {
+    height: 2px;
+}
+
+.NavBurger a::before {
+    transition: height 0.1s;
+}
+
+
