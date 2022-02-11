@@ -1,18 +1,32 @@
 // imports
 import React from "react";
 import s from './Main.module.css'
+import avatar from '../../assets/avatar_black.png'
+
 
 // component
 
 export const Main = () => {
     return (
-        <div className={s.mainBlock}>
-            <div className={s.mainBlockContainer}>
-                <div className={s.text}>
-                    <h1>I am <br/> Eugene Pashkevich</h1>
-                    <span>I am front-end developer</span>
+        <div className={s.main}>
+            <div className={s.main_container}>
+
+                <div className={s.main_title_container}>
+                    <div className={s.main_title}><b>I am</b></div>
+                    <div className={s.main_title}><b>Eugene Pashkevich</b></div>
+                    <div className={s.main_title_black_box}>
+                        <div className={s.black_box}>
+                            Frontend
+                        </div>
+                        <div>developer</div>
+                    </div>
+                    <button className={s.btn_main}>Show more</button>
                 </div>
-                <div className={s.photo}></div>
+
+
+                <div>
+                    <img alt={'avatar'} src={avatar} className={s.avatar}/>
+                </div>
             </div>
         </div>
     )
