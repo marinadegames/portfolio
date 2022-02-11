@@ -1,0 +1,11 @@
+.skills {
+    padding: 0 80px;
+    height: 100vh;
+}
+
+
+.skills_container {
+    margin: 100px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+}

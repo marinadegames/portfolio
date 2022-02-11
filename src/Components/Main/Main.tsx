@@ -2,14 +2,15 @@
 import React from "react";
 import s from './Main.module.css'
 import avatar from '../../assets/avatar_black.png'
-
+import back from '../../assets/back.png'
 
 // component
 
 export const Main = () => {
+
     return (
-        <div className={s.main}>
-            <div className={s.main_container}>
+        <div className={s.main} >
+            <div className={s.main_container} style={{backgroundImage: back}}>
 
                 <div className={s.main_title_container}>
                     <div className={s.main_title}><b>I am</b></div>
@@ -25,7 +26,7 @@ export const Main = () => {
 
 
                 <div>
-                    <img alt={'avatar'} src={avatar} className={s.avatar}/>
+                    <img alt={'avatar'} src={avatar} className={s.avatar} />
                 </div>
             </div>
         </div>
