@@ -1,0 +1,52 @@
+.card {
+    border: 1px solid var(--dark_color);
+    padding: 20px;
+    height: 290px;
+    width: 350px;
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--background_color_1);
+
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.card:hover {
+    transform: scale(1.03);
+
+}
+
+.card_container {
+    display: flex;
+    align-items: center;
+}
+.card:hover .icon{
+    transform: rotate(360deg);
+}
+
+.title_container {
+    /*border: 1px solid blue;*/
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.icon {
+
+    height: auto;
+    width: 120px;
+    transition: ease-in-out 1s;
+}
+.text_container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Sofia Pro, serif ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+}
