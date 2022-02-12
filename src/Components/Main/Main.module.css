@@ -1,15 +1,11 @@
 .main {
     display: flex;
-    /*align-items: center;*/
     flex-direction: column;
     justify-content: space-between;
-    /*width: 100%;*/
-    padding: 0 80px 0 80px;
-    /*background-image: url("./src/assets/back.png");*/
-    /*background-size: cover;*/
-    height: 100vh;
+    padding: 100px 80px 0 80px;
+    height: 90vh;
     color: var(--dark_color);
-
+    background-image: url("../../assets/back.png");
 }
 
 
@@ -51,8 +47,9 @@
     height: 60px;
     width: 200px;
     border: 1px solid var(--dark_color);
-    background-color: var(--background_color_2);
+    background-color: var(--glass_2);
     transition: 0.3s;
+    backdrop-filter: blur(3px );
 }
 .btn_main:hover {
     background-color: var(--dark_color);

@@ -1,0 +1,16 @@
+.offer {
+    border: 1px solid var(--dark_color);
+    padding: 0 80px 0 80px;
+    height: 100vh;
+    /*background-color: var(--background_color_2);*/
+    /*background: var(--background_color_2) url("../../assets/back2.png");*/
+}
+
+
+.offer_container {
+    margin: 50px 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
