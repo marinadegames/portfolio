@@ -12,6 +12,7 @@
     backdrop-filter: blur(9px);
     cursor: pointer;
     margin: 0 0 40px 0;
+
 }
 
 .cardWork:hover {
@@ -70,4 +71,24 @@
 .btn_workCard:hover {
     background-color: var(--dark_color);
     color: var(--background_color_1);
+}
+
+/* MEDIA */
+@media (max-width: 1000px) {
+    .cardWork {
+        padding: 20px;
+        width: 80%;
+        height: auto;
+    }
+    .title_container {
+        font-size: 1.8em;
+
+    }
+    .icon {
+        width: 80px;
+    }
+    .text_container {
+        margin: 20px 0 20px 0;
+        font-size: 20px;
+    }
 }

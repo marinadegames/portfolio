@@ -19,7 +19,6 @@
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
-    line-height: 40px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -33,4 +32,23 @@
     cursor: pointer;
     margin: 0 10px;
     width: 70px;
+}
+
+
+/* MEDIA */
+@media (max-width: 1000px) {
+    .footer {
+        height: 50vh;
+        padding: 0 80px;
+    }
+    .footer_container {
+        font-size: 1rem;
+    }
+    .footer_container p {
+        display: block;
+        font-size: 1em;
+    }
+    .icons_box img {
+        width: 50px;
+    }
 }

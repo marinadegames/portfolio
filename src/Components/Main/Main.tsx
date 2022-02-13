@@ -2,8 +2,9 @@
 import React from "react";
 import s from './Main.module.css'
 import avatar from '../../assets/avatar_black.png'
-// component
 
+
+// component
 export const Main = () => {
 
     return (
@@ -17,11 +18,10 @@ export const Main = () => {
                         <div className={s.black_box}>
                             Frontend
                         </div>
-                        <div>developer</div>
+                        <div className={s.developerText}>developer</div>
                     </div>
                     <button className={s.btn_main}>Show more</button>
                 </div>
-
 
                 <div>
                     <img alt={'avatar'} src={avatar} className={s.avatar} />

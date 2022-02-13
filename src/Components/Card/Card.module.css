@@ -1,5 +1,4 @@
 .card {
-
     border: 1px solid var(--dark_color);
     padding: 20px;
     height: 290px;
@@ -13,6 +12,7 @@
     cursor: pointer;
     transition: ease-in-out 0.2s;
 }
+
 .card:hover {
     transform: scale(1.03);
 
@@ -22,7 +22,8 @@
     display: flex;
     align-items: center;
 }
-.card:hover .icon{
+
+.card:hover .icon {
     transform: rotate(360deg);
 }
 
@@ -33,21 +34,39 @@
     display: flex;
     justify-content: center;
 }
+
 .icon {
 
     height: auto;
     width: 120px;
     transition: ease-in-out 1s;
 }
+
 .text_container {
     height: 100%;
 
     display: flex;
     align-items: center;
 
-    font-family: Sofia Pro, serif ;
+    font-family: Sofia Pro, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
     line-height: 30px;
+}
+
+/* MEDIA */
+@media (max-width: 1000px) {
+    .card {
+        width: 80%;
+        height: 200px;
+    }
+
+    .icon {
+        width: 80px;
+    }
+
+    .text_container {
+        font-size: 1em;
+    }
 }

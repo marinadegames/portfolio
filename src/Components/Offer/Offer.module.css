@@ -42,3 +42,31 @@
     background-color: var(--dark_color);
     color: var(--background_color_1);
 }
+
+
+/* MEDIA */
+@media (max-width: 1000px) {
+    .offer {
+
+        padding: 0;
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+    .offer_container {
+        font-size: 1em;
+        border: none;
+        height: auto;
+    }
+    .icon_work {
+        width: 80px;
+        /*display: none;*/
+    }
+    .icons_work_container {
+        display: none;
+    }
+    .box {
+        text-align: right;
+        padding: 20px;
+
+    }
+}
