@@ -147,7 +147,6 @@
     }
 
     .header_mobile_container_open {
-        display: block;
         padding: 50px 20px;
         display: flex;
         flex-direction: row;
