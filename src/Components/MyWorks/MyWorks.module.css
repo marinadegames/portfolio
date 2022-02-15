@@ -2,7 +2,7 @@
     color: var(--dark_color);
     /*border: 1px solid var(--dark_color);*/
     padding: 50px 80px 0 80px;
-    height: 100vh;
+    min-height: 100vh;
     /*background-color: var(--background_color_2);*/
     background: var(--background_color_1) url("../../assets/back2.png");
 }

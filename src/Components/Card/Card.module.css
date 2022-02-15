@@ -1,7 +1,7 @@
 .card {
     border: 1px solid var(--dark_color);
     padding: 20px;
-    height: 290px;
+    height: auto;
     width: 350px;
     margin: 0 0 40px 0;
     display: flex;

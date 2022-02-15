@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     /*width: 100%;*/
-    height: 50vh;
+    min-height: 50vh;
     background-color: var(--dark_color);
     color: var(--background_color_1);
     text-align: center;

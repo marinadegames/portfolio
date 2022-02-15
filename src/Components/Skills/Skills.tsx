@@ -29,7 +29,8 @@ export const Skills = () => {
                 <div className={s.cards_container}>
                     <Card title={'HTML5'}
                           icon={html5_icon}
-                          text={'Lorem ipsum dolor sit amet, labore et dolore magna aliqua. An quis nostrud.'}/>
+                          text={'LoredolorAn quis nostrud.'}/>
+
                     <Card title={'CSS3'}
                           icon={css3_icon}
                           text={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
