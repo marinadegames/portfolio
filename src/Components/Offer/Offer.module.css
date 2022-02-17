@@ -55,6 +55,7 @@
     .offer_container {
         font-size: 1em;
         border: none;
+        border-bottom: 1px solid var(--dark_color);
         height: auto;
     }
     .icon_work {
