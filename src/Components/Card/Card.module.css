@@ -8,14 +8,12 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--background_color_1);
-
     cursor: pointer;
     transition: ease-in-out 0.2s;
 }
 
 .card:hover {
     transform: scale(1.03);
-
 }
 
 .card_container {
@@ -28,27 +26,22 @@
 }
 
 .title_container {
-    /*border: 1px solid blue;*/
     width: 100%;
-
     display: flex;
     justify-content: center;
 }
 
 .icon {
-
     height: auto;
-    width: 120px;
+    width: 100px;
     transition: ease-in-out 1s;
 }
 
 .text_container {
     height: 100%;
-
     display: flex;
     align-items: center;
-
-    font-family: Sofia Pro, serif;
+    margin: 20px 0 0 0;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -68,6 +61,5 @@
 
     .text_container {
         font-size: 1em;
-        font-family: Sofia Pro, serif;
     }
 }

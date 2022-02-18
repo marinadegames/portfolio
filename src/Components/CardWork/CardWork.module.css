@@ -32,7 +32,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: Sofia Pro, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -52,7 +51,6 @@
     display: flex;
     align-items: center;
     color: var(--dark_color);
-    font-family: Sofia Pro, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
