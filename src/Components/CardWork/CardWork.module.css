@@ -1,5 +1,5 @@
 .cardWork {
-
+    font-weight: 600;
     border: 1px solid var(--dark_color);
     padding: 40px;
     height: 400px;
@@ -32,7 +32,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 50px;
@@ -52,7 +51,7 @@
     align-items: center;
     color: var(--dark_color);
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 25px;
     line-height: 30px;
 }
@@ -76,17 +75,19 @@
     .cardWork {
         padding: 20px;
         width: 80%;
-        height: auto;
+        height: 350px;
     }
     .title_container {
-        font-size: 1.8em;
+        font-size: 2em;
 
     }
     .icon {
         width: 80px;
     }
     .text_container {
-        margin: 20px 0 20px 0;
+        margin: 25px 0 25px 0;
         font-size: 20px;
+        font-weight: 500;
+        text-align: center;
     }
 }
