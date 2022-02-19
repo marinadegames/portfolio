@@ -1,8 +1,8 @@
 .card {
-    border: 1px solid var(--dark_color);
+    border: 1px solid var(--background_color_1);
     padding: 20px;
-    height: 290px;
-    width: 350px;
+    height: 200px;
+    width: 50%;
     margin: 0 0 40px 0;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
 }
 .icon {
     height: auto;
-    width: 120px;
+    width: 80px;
     transition: ease-in-out 1s;
 }
 .text_container {
@@ -43,6 +43,7 @@
 
     display: flex;
     align-items: center;
+    text-align: center;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;

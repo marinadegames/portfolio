@@ -73,12 +73,13 @@ export const Skills = () => {
                           icon={photoshop_icon}
                           text={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
                     />
-                    <DarkCard title={'And more...'}
-                          icon={search_icon}
-                          text={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
-                    />
+
 
                 </div>
+                <DarkCard title={'And more...'}
+                           icon={search_icon}
+                           text={'I am constantly in search of new technologies and learning interesting things!'}
+            />
             </div>
         </div>
     )

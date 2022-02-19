@@ -23,9 +23,9 @@ export const Card = (props: propsType) => {
 
 
             </div>
-            <div className={s.text_container}>
-                <div>{props.text}</div>
-            </div>
+            {/*<div className={s.text_container}>*/}
+            {/*    <div>{props.text}</div>*/}
+            {/*</div>*/}
         </div>
     )
 }
