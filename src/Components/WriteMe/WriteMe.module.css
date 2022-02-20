@@ -63,18 +63,24 @@
 .btn {
     cursor: pointer;
     height: 60px;
+    color: var(--dark_color);
     width: 100%;
     border: 1px solid var(--dark_color);
     background-color: var(--glass_2);
     transition: 0.3s;
     backdrop-filter: blur(3px);
+    font-size: 26px;
 }
 
 .btn:hover {
     background-color: var(--dark_color);
     color: var(--background_color_1);
 }
-
+.informText {
+    display: block;
+    margin: 20px;
+    font-size: 50px;
+}
 /* MEDIA */
 
 @media (max-width: 1000px) {
