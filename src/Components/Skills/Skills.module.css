@@ -1,5 +1,8 @@
 .skills {
-    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     border: 1px solid var(--dark_color);
     background-color: var(--dark_color);
     color: var(--background_color_1);

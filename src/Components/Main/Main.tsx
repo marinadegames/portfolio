@@ -16,7 +16,9 @@ export const Main = () => {
                     <div className={s.main_title}><b>Eugene Pashkevich</b></div>
                     <div className={s.main_title_black_box}>
                         <div className={s.black_box}>
-                            Frontend
+                            <p className={s.text_typing }>
+                                Frontend
+                            </p>
                         </div>
                         <div className={s.developerText}>developer</div>
                     </div>

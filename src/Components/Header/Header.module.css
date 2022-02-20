@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: space-between;
     transition: ease-in-out 0.5s;
+    font-size: 20px;
 }
 
 .logo_header_block {
@@ -49,9 +50,30 @@
 }
 
 .nav a {
-    text-decoration: none;
     color: var(--dark_color);
     margin: 0 20px;
+    font-size: 20px;
+    transition: ease-in-out 0.2s;
+    position: relative;
+    cursor: pointer;
+    line-height: 1; /*задаём высоту строки*/
+    text-decoration: none; /*убираем подчёркивание*/
+}
+.nav a:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 100%;/*задаём длинну линии до наведения курсора*/
+    height: 0; /*задаём ширину линии*/
+    background-color: var(--dark_color); /*задаём цвет линии*/
+    content: "";
+    transition: height 0.1s; /*задаём время анимации*/
+}
+
+.nav a:hover:after,
+.nav a:focus:after {
+    height: 8%;
 }
 
 .send_me_button_nav {
