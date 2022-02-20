@@ -92,6 +92,9 @@
 .open_menu_list_box{
     display: none;
 }
+.open_menu_list_box a {
+    text-decoration: none;
+}
 .header_mobile_container_open {
     display: none;
     transition: ease-in-out 0.5s;

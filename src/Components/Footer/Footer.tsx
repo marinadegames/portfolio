@@ -10,14 +10,14 @@ import telegram from '../../assets/telegram.png'
 // component
 export const Footer = () => {
     return (
-        <div className={s.footer}>
+        <div className={s.footer} id={'footer'}>
             <div className={s.footer_container}>
                 <h2>Eugene Pashkevich</h2>
                 <div className={s.icons_box}>
-                    <img alt={'icon'} src={telegram}/>
-                    <img alt={'icon'} src={git_icon}/>
-                    <img alt={'icon'} src={mail_icon}/>
-                    <img alt={'icon'} src={linkedin_icon}/>
+                    <a href={'https://t.me/eugenepash'}><img alt={'icon'} src={telegram}/></a>
+                    <a href={'https://github.com/marinadegames'}><img alt={'icon'} src={git_icon}/></a>
+                    <a href={'mailto:eugenepash@gmail.com'}><img alt={'icon'} src={mail_icon}/></a>
+                    <a href={'https://www.linkedin.com/in/eugene-pashkevich-9582b122a/'}><img alt={'icon'} src={linkedin_icon}/></a>
 
                 </div>
                 <p>© 2022 All rights reserved</p>

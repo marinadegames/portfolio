@@ -68,8 +68,8 @@
 }
 
 
-
 .btn_main {
+    scroll-behavior: smooth;
     cursor: pointer;
     height: 60px;
     width: 200px;
@@ -79,8 +79,17 @@
     backdrop-filter: blur(3px);
 }
 
+.btn_main a {
+    text-decoration: none;
+    color: var(--dark_color);
+    scroll-behavior: smooth;
+}
+
 .btn_main:hover {
     background-color: var(--dark_color);
+    color: var(--background_color_1);
+}
+.btn_main:hover  a{
     color: var(--background_color_1);
 }
 
@@ -97,6 +106,7 @@
     color: var(--background_color_1);
     background-color: var(--dark_color);
 }
+
 .text_typing {
     padding: 0;
     margin: 0;
@@ -137,7 +147,6 @@
         width: 0;
     }
 }
-
 
 
 /* MEDIA */
@@ -201,10 +210,12 @@
     .btn_main {
         width: 100%;
     }
+
     .black_box {
         display: flex;
         justify-content: center;
     }
+
     .text_typing {
 
     }

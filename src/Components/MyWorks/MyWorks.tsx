@@ -11,7 +11,7 @@ import counter_icon from '../../assets/counter-logo.png'
 // component
 export const MyWorks = () => {
     return (
-        <div className={s.myWorks}>
+        <div className={s.myWorks} id={'myWorks'}>
             <div className={s.myWorks_container}>
                 <h2>MY WORKS</h2>
                 <div className={s.cardsWorks_container}>

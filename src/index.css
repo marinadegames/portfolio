@@ -24,3 +24,7 @@ body {
     font-family: "Sofia Pro", sans-serif;
     font-weight: 500;
 }
+
+html {
+    scroll-behavior: smooth;
+}

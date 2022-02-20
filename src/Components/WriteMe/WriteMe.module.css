@@ -3,7 +3,8 @@
     justify-content: center;
     padding: 0 80px 0 80px;
     min-height: 80vh;
-    background-color: var(--background_color_2);
+    scroll-behavior: smooth;
+    /*background-color: var(--background_color_2);*/
     background: url("../../assets/back5.png");
 }
 

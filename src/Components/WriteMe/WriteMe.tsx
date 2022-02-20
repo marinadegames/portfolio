@@ -46,7 +46,7 @@ export const WriteMe = () => {
     }
 
     return (
-        <div className={s.write_me}>
+        <div className={s.write_me} id={'writeMe'}>
 
             <form className={s.write_me_container} onSubmit={sendEmail}>
                 <h1>Write me:</h1>

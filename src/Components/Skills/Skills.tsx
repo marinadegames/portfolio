@@ -24,7 +24,7 @@ import {DarkCard} from "../DarkCard/DarkCard";
 
 export const Skills = () => {
     return (
-        <div className={s.skills}>
+        <div className={s.skills} id={'skills'}>
 
             <div className={s.skills_container}>
                 <h1>My skills:</h1>

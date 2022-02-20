@@ -14,20 +14,22 @@ export const Header = () => {
 
     return (
         <div>
-            <div className={s.header}>
+            <div className={s.header} id={'home'}>
                 <div className={s.header_container}>
                     <div className={s.logo_header_block}>
                         <img alt={'logo'} src={logo} className={s.logo}/>
                         <>MARINADE.DEV</>
                     </div>
                     <div className={s.nav}>
-                        <a href={'#'}>Home</a>
-                        <a href={'#'}>Skills</a>
-                        <a href={'#'}>Projects</a>
-                        <a href={'#'}>Contacts</a>
+                        <a href={'#home'}>Home</a>
+                        <a href={'#skills'}>Skills</a>
+                        <a href={'#myWorks'}>Projects</a>
+                        <a href={'#footer'}>Contacts</a>
                     </div>
                     <div className={s.send_me_block}>
-                        <button className={s.send_me_button_nav}>send me</button>
+                        <a href={'#writeMe'}>
+                            <button className={s.send_me_button_nav}>send me</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -48,10 +50,15 @@ export const Header = () => {
 
                     </div>
                     <div className={s.open_menu_list_box}>
-                        <div className={s.mobile_menu_item}>Home</div>
-                        <div className={s.mobile_menu_item}>Skills</div>
-                        <div className={s.mobile_menu_item}>Projects</div>
-                        <div className={s.mobile_menu_item}>Contacts</div>
+                        <a href={'#skills'}>
+                            <div className={s.mobile_menu_item}>Skills</div>
+                        </a>
+                        <a href={'#myWorks'}>
+                            <div className={s.mobile_menu_item}>Projects</div>
+                        </a>
+                        <a href={'#footer'}>
+                            <div className={s.mobile_menu_item}>Contacts</div>
+                        </a>
                     </div>
                 </div>
 

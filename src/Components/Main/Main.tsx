@@ -8,7 +8,7 @@ import avatar from '../../assets/avatar_black.png'
 export const Main = () => {
 
     return (
-        <div className={s.main} >
+        <div className={s.main} id={'home'} >
             <div className={s.main_container}>
 
                 <div className={s.main_title_container}>
@@ -22,7 +22,7 @@ export const Main = () => {
                         </div>
                         <div className={s.developerText}>developer</div>
                     </div>
-                    <button className={s.btn_main}>Show more</button>
+                    <button className={s.btn_main} ><a href={'#skills'}>Show more</a></button>
                 </div>
 
                 <div>
