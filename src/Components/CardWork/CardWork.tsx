@@ -8,6 +8,7 @@ type propsType = {
     title?: string
     icon?: any
     text?: string
+    link?: string
 }
 
 
@@ -26,10 +27,13 @@ export const CardWork = (props: propsType) => {
             <div className={s.text_container}>
                 <div>{props.text}</div>
             </div>
-            <button className={s.btn_workCard}
-            >
-                show
-            </button>
+
+            <a href={props.link}>
+                <button className={s.btn_workCard}>
+                    show
+                </button>
+            </a>
+
         </div>
     )
 }

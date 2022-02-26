@@ -17,15 +17,18 @@ export const MyWorks = () => {
                 <div className={s.cardsWorks_container}>
                     <CardWork title={'Moon msg!'}
                               icon={moonMsg_icon}
-                              text={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
+                              link={'https://marinadegames.github.io/moon-msg/'}
+                              text={"It's my social network project - MOON msg! I use in the this project React, Redux, API requests, clean css, axios, thunks, and more.  "}
                     />
                     <CardWork title={'Moon tasks'}
                               icon={moon_tasks_icon}
-                              text={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
+                              link={'https://marinadegames.github.io/todolist-2.0/'}
+                              text={'It\'s my ToDo-application - MOON tasks! I use in the this project React, Redux, clean CSS, and more. '}
                     />
                     <CardWork title={'Counter'}
                               icon={counter_icon}
-                              text={'Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.'}
+                              link={'https://marinadegames.github.io/counter/'}
+                              text={'This project - just simple counter with settings start value and end value. I used in this project React, Redux, clean CSS, React-router-dom and more'}
                     />
 
                 </div>

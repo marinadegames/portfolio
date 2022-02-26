@@ -17,7 +17,7 @@ export const Footer = () => {
                     <a href={'https://t.me/eugenepash'}><img alt={'icon'} src={telegram}/></a>
                     <a href={'https://github.com/marinadegames'}><img alt={'icon'} src={git_icon}/></a>
                     <a href={'mailto:eugenepash@gmail.com'}><img alt={'icon'} src={mail_icon}/></a>
-                    <a href={'https://www.linkedin.com/in/eugene-pashkevich-9582b122a/'}><img alt={'icon'} src={linkedin_icon}/></a>
+                    <a href={'www.linkedin.com/in/eugenepash'}><img alt={'icon'} src={linkedin_icon}/></a>
 
                 </div>
                 <p>© 2022 All rights reserved</p>

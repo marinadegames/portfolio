@@ -1,5 +1,4 @@
 .cardWork {
-    font-weight: 600;
     border: 1px solid var(--dark_color);
     padding: 40px;
     height: 400px;
@@ -32,7 +31,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    font-weight: bold;
     font-size: 50px;
     line-height: 50px;
     align-items: center;
@@ -46,12 +44,10 @@
 }
 
 .text_container {
-
     display: flex;
     align-items: center;
     color: var(--dark_color);
     font-style: normal;
-    font-weight: 500;
     font-size: 25px;
     line-height: 30px;
 }
@@ -77,13 +73,16 @@
         width: 80%;
         height: 350px;
     }
+
     .title_container {
         font-size: 2em;
 
     }
+
     .icon {
         width: 80px;
     }
+
     .text_container {
         margin: 25px 0 25px 0;
         font-size: 20px;

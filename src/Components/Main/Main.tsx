@@ -1,14 +1,14 @@
 // imports
 import React from "react";
 import s from './Main.module.css'
-import avatar from '../../assets/avatar_black.png'
+import avatar from '../../assets/avatar_black_compessed.png'
 
 
 // component
 export const Main = () => {
 
     return (
-        <div className={s.main} id={'home'} >
+        <div className={s.main} id={'home'}>
             <div className={s.main_container}>
 
                 <div className={s.main_title_container}>
@@ -16,17 +16,17 @@ export const Main = () => {
                     <div className={s.main_title}><b>Eugene Pashkevich</b></div>
                     <div className={s.main_title_black_box}>
                         <div className={s.black_box}>
-                            <p className={s.text_typing }>
+                            <p className={s.text_typing}>
                                 Frontend
                             </p>
                         </div>
                         <div className={s.developerText}>developer</div>
                     </div>
-                    <button className={s.btn_main} ><a href={'#skills'}>Show more</a></button>
+                    <button className={s.btn_main}><a href={'#skills'}>Show more</a></button>
                 </div>
 
                 <div>
-                    <img alt={'avatar'} src={avatar} className={s.avatar} />
+                    <img alt={'avatar'} src={avatar} className={s.avatar}/>
                 </div>
             </div>
         </div>
