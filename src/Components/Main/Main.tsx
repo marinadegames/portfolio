@@ -6,7 +6,7 @@ import avatar from '../../assets/avatar_black_compessed.png'
 
 // component
 export const Main = () => {
-
+    console.log('===== MAIN =====')
     return (
         <div className={s.main} id={'home'}>
             <div className={s.main_container}>
@@ -22,7 +22,9 @@ export const Main = () => {
                         </div>
                         <div className={s.developerText}>developer</div>
                     </div>
-                    <button className={s.btn_main}><a href={'#skills'}>Show more</a></button>
+                    <a href={'#skills'}>
+                        <button className={s.btn_main}>Show more</button>
+                    </a>
                 </div>
 
                 <div>

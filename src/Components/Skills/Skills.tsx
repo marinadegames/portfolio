@@ -17,12 +17,14 @@ import figma_icon from '../../assets/Figma-1-logo.png'
 import photoshop_icon from '../../assets/PS.png'
 import search_icon from '../../assets/search.png'
 import Storybook from "../../assets/storybook.png";
+import Postman_Icon from '../../assets/postman.png'
 import {DarkCard} from "../DarkCard/DarkCard";
 
 
 // component
 
 export const Skills = () => {
+    console.log('===== SKILLS =====')
     return (
         <div className={s.skills} id={'skills'}>
 
@@ -64,6 +66,9 @@ export const Skills = () => {
                     />
                     <Card title={'Storybook'}
                           icon={Storybook}
+                    />
+                    <Card title={'Postman'}
+                          icon={Postman_Icon}
                     />
 
 
