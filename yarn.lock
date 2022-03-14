@@ -7123,6 +7123,11 @@ react-error-overlay@^6.0.10:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.10.tgz#0fe26db4fa85d9dbb8624729580e90e7159a59a6"
   integrity sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA==
 
+react-fps-stats@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-fps-stats/-/react-fps-stats-0.1.4.tgz#a7922267eeaa25cbcb402a1feed2da8d92a92eff"
+  integrity sha512-yEwZCuNnRoTxkss65khAANsisGGhXgdQfET98sBS631qRrvYJuWV2VWx4ndndKN2SNZDNDofAN1LCueBRIikmw==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"

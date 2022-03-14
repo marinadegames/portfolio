@@ -1,7 +1,7 @@
 // imports
 import React from "react";
 import s from './Main.module.css'
-import avatar from '../../assets/avatar_black_compessed.png'
+import avatar from '../../assets/avatar-min.jpg'
 
 
 // component

@@ -1,7 +1,7 @@
 .card {
-    padding: 20px;
+    padding: 20px 27px;
     height: auto;
-    width: 300px;
+    width: 280px;
     margin: 0 0 40px 0;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
     cursor: pointer;
     transition: ease-in-out 0.2s;
     color: var(--dark_color);
+    border-radius: var(--borderRadiusCustom);
 }
 
 .card:hover {
@@ -34,7 +35,7 @@
 
 .icon {
     height: auto;
-    width: 80px;
+    width: 70px;
     transition: ease-in-out 1s;
 }
 

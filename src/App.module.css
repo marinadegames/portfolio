@@ -5,6 +5,8 @@
     --dark_color: #1C2121;
     --glass: rgba(195, 186, 177, 0.2);
     --glass_2: rgba(195, 186, 177, 0.2);
+
+    --borderRadiusCustom: 40px;
 }
 
 body {

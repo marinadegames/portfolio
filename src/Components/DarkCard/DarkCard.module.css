@@ -9,7 +9,7 @@
     justify-content: space-between;
     background-color: var(--dark_color);
     color: var(--background_color_1);
-
+    border-radius: var(--borderRadiusCustom);
     cursor: pointer;
     transition: ease-in-out 0.3s;
 }

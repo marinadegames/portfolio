@@ -7,15 +7,16 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--glass_2);
-    transition: 0.2s;
+    /*transition: 0.2s;*/
     backdrop-filter: blur(9px);
     cursor: pointer;
     margin: 0 0 40px 0;
+    border-radius: var(--borderRadiusCustom);
 
 }
 
 .cardWork:hover {
-    transform: scale(1.03);
+    /*transform: scale(1.03);*/
 }
 
 .cardWork:hover .icon {
@@ -53,6 +54,7 @@
 }
 
 .btn_workCard {
+    border-radius: var(--borderRadiusCustom);
     cursor: pointer;
     height: 60px;
     width: 100%;

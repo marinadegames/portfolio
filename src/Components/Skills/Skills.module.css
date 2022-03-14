@@ -6,6 +6,9 @@
     border: 1px solid var(--dark_color);
     background-color: var(--dark_color);
     color: var(--background_color_1);
+    border-radius: var(--borderRadiusCustom);
+    margin: 0 20px;
+    padding: 30px;
 }
 
 
@@ -30,7 +33,6 @@
     .skills {
         border: none;
         border-top: 1px solid var(--dark_color);
-        width: 100%;
     }
 
     .cards_container {

@@ -8,6 +8,7 @@
     background-color: var(--dark_color);
     color: var(--background_color_1);
     text-align: center;
+    border-radius: var(--borderRadiusCustom) var(--borderRadiusCustom) 0 0 ;
 }
 
 .footer_container {
