@@ -19,7 +19,8 @@ import search_icon from '../../assets/search.png'
 import Storybook from "../../assets/storybook.png";
 import Postman_Icon from '../../assets/postman.png'
 import {DarkCard} from "../DarkCard/DarkCard";
-
+import formik_icon from '../../assets/formik.png'
+import tailwindUI from '../../assets/Tailwind_CSSpng.png'
 
 // component
 
@@ -31,23 +32,24 @@ export const Skills = () => {
             <div className={s.skills_container}>
                 <h1>My skills:</h1>
                 <div className={s.cards_container}>
-                    <Card title={'HTML5'}
-                          icon={html5_icon}
-                    />
-                    <Card title={'CSS3'}
-                          icon={css3_icon}
-                    />
-                    <Card title={'JavaScript'}
-                          icon={JS_icon}
-                    />
+
                     <Card title={'React'}
                           icon={react_icon}
                     />
                     <Card title={'Redux'}
                           icon={redux_icon}
                     />
+                    <Card title={'JavaScript'}
+                          icon={JS_icon}
+                    />
                     <Card title={'TypeScript'}
                           icon={ts_icon}
+                    />
+                    <Card title={'HTML5'}
+                          icon={html5_icon}
+                    />
+                    <Card title={'CSS3'}
+                          icon={css3_icon}
                     />
                     <Card title={'Material UI'}
                           icon={MUI_icon}
@@ -69,6 +71,12 @@ export const Skills = () => {
                     />
                     <Card title={'Postman'}
                           icon={Postman_Icon}
+                    />
+                    <Card title={'Formik'}
+                          icon={formik_icon}
+                    />
+                    <Card title={'Tailwind UI'}
+                          icon={tailwindUI}
                     />
 
 

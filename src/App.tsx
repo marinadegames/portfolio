@@ -10,9 +10,9 @@ import {WriteMe} from "./Components/WriteMe/WriteMe";
 import {Footer} from "./Components/Footer/Footer";
 
 
+
 // component
 function App() {
-    console.log('===== APP =====')
     return (
         <div className={s.App}>
             <Header/>
