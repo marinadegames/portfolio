@@ -1,13 +1,10 @@
-// imports
 import React, {useState} from "react";
 import s from './Header.module.css'
 import logo from '../../assets/LOGO_PORTFOLIO.png'
 
-// component
 export const Header = () => {
 
     const [burger, setBurger] = useState<boolean>(false)
-
     const openMenu = () => {
         setBurger(!burger)
     }
@@ -47,7 +44,6 @@ export const Header = () => {
                             <div className={s.bar2_open}/>
                             <div className={s.bar3_open}/>
                         </div>
-
                     </div>
                     <div className={s.open_menu_list_box}>
                         <a href={'#skills'}>
@@ -61,7 +57,6 @@ export const Header = () => {
                         </a>
                     </div>
                 </div>
-
                 :
                 <div className={s.header_mobile}>
                     <div className={s.header_mobile_container}>
@@ -77,9 +72,6 @@ export const Header = () => {
                     </div>
                 </div>
             }
-
-
         </div>
-
     )
 }

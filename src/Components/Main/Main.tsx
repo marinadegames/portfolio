@@ -1,11 +1,9 @@
-// imports
 import React, {useEffect, useRef, useState} from "react";
 import s from './Main.module.css'
 import avatar from '../../assets/avatar-min.jpg'
-// @ts-ignore
-import BIRDS from 'vanta/dist/vanta.birds.min';
 import {motion} from 'framer-motion';
-
+// @ts-ignore (need ignore!)
+import BIRDS from 'vanta/dist/vanta.birds.min';
 
 const list = {
     hidden: {
@@ -14,11 +12,11 @@ const list = {
     }
 }
 
-// component
 export const Main = () => {
 
     const [vantaEffect, setVantaEffect] = useState<any>(0);
     const myRef = useRef(null);
+
     useEffect(() => {
         if (!vantaEffect) {
             setVantaEffect(BIRDS({
@@ -47,7 +45,6 @@ export const Main = () => {
         }
     }, [vantaEffect])
 
-
     return (
         <motion.section
             animate="hidden"
@@ -57,10 +54,7 @@ export const Main = () => {
             ref={myRef}
         >
             <div className={s.main} id={'main'}>
-
-
                 <div className={s.main_container}>
-
                     <div className={s.main_title_container}>
                         <div className={s.main_title}><b>I am</b></div>
                         <div className={s.main_title}><b>Eugene Pashkevich</b></div>
@@ -76,37 +70,11 @@ export const Main = () => {
                             <button className={s.btn_main}>Show more</button>
                         </a>
                     </div>
-
                     <div>
                         <img alt={'avatar'} src={avatar} className={s.avatar}/>
                     </div>
                 </div>
             </div>
         </motion.section>
-
     )
 }
-
-
-// <div className={s.main_container}>
-//
-//     <div className={s.main_title_container}>
-//         <div className={s.main_title}><b>I am</b></div>
-//         <div className={s.main_title}><b>Eugene Pashkevich</b></div>
-//         <div className={s.main_title_black_box}>
-//             <div className={s.black_box}>
-//                 <p className={s.text_typing}>
-//                     Frontend
-//                 </p>
-//             </div>
-//             <div className={s.developerText}>developer</div>
-//         </div>
-//         <a href={'#skills'}>
-//             <button className={s.btn_main}>Show more</button>
-//         </a>
-//     </div>
-//
-//     <div>
-//         <img alt={'avatar'} src={avatar} className={s.avatar}/>
-//     </div>
-// </div>

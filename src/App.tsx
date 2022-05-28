@@ -1,4 +1,3 @@
-// imports
 import React from 'react';
 import s from './App.module.css'
 import {Header} from "./Components/Header/Header";
@@ -9,10 +8,7 @@ import {Offer} from "./Components/Offer/Offer";
 import {WriteMe} from "./Components/WriteMe/WriteMe";
 import {Footer} from "./Components/Footer/Footer";
 
-
-
-// component
-function App() {
+export const App = () =>  {
     return (
         <div className={s.App}>
             <Header/>
@@ -25,7 +21,3 @@ function App() {
         </div>
     );
 }
-
-
-// export
-export default App;

@@ -1,4 +1,3 @@
-// imports
 import React from "react"
 import s from './MyWorks.module.css'
 import {CardWork} from "../CardWork/CardWork";
@@ -9,7 +8,6 @@ import moon_tasks_icon from '../../assets/moon-logo-purple.png'
 import counter_icon from '../../assets/counter-logo.png'
 import cards_icons from '../../assets/cards.png'
 
-// component
 export const MyWorks = () => {
     return (
         <div className={s.myWorks} id={'myWorks'}>
@@ -37,9 +35,6 @@ export const MyWorks = () => {
                               link={'https://marinadegames.github.io/counter/'}
                               text={'This project - just simple counter with settings start value and end value. I used in this project React, Redux, clean CSS, React-router-dom and more'}
                     />
-
-
-
                 </div>
             </div>
         </div>

@@ -1,9 +1,6 @@
-// imports
 import React from "react";
 import s from './Skills.module.css'
 import {Card} from "../Card/Card";
-
-// imports icons
 import html5_icon from '../../assets/icone-html-orange.png'
 import css3_icon from '../../assets/CSS3.png'
 import JS_icon from '../../assets/js.png'
@@ -22,13 +19,9 @@ import {DarkCard} from "../DarkCard/DarkCard";
 import formik_icon from '../../assets/formik.png'
 import tailwindUI from '../../assets/Tailwind_CSSpng.png'
 
-// component
-
 export const Skills = () => {
-    console.log('===== SKILLS =====')
     return (
         <div className={s.skills} id={'skills'}>
-
             <div className={s.skills_container}>
                 <h1>My skills:</h1>
                 <div className={s.cards_container}>
@@ -78,7 +71,6 @@ export const Skills = () => {
                     <Card title={'Tailwind UI'}
                           icon={tailwindUI}
                     />
-
 
                 </div>
                 <DarkCard title={'And more...'}

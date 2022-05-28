@@ -1,10 +1,7 @@
-// imports
 import React, {useState} from "react"
 import s from './WriteMe.module.css'
-// const axios = require('axios').default;
-import emailjs from '@emailjs/browser';
+import emailJS from '@emailjs/browser';
 
-// component
 export const WriteMe = () => {
 
     const [name_input, setName_input] = useState<string>('')
@@ -24,9 +21,7 @@ export const WriteMe = () => {
 
     const sendEmail = (e: any) => {
         e.preventDefault();
-
-
-        emailjs.send("service_mhpj00b", "template_073hvyr", {
+        emailJS.send("service_mhpj00b", "template_073hvyr", {
             name: name_input,
             email: email_input,
             message: message,
@@ -36,7 +31,7 @@ export const WriteMe = () => {
             setName_input('')
             setEmail_input('')
             setMessage('')
-            setTimeout( () => {
+            setTimeout(() => {
                 setInformText('')
             }, 3000)
         }, (error) => {
@@ -68,7 +63,6 @@ export const WriteMe = () => {
                 <button className={s.btn} type={"submit"}>hire me</button>
                 <span className={s.informText}>{informText}</span>
             </form>
-
         </div>
     )
 }
