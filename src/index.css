@@ -1,3 +1,14 @@
+:root {
+    --background: #FEF3F9;
+    --yellow: #FDBE11;
+    --red: #F85A2C;
+    --green: #00C6AD;
+    --black: #1C2121;
+    --blue: #1747E7;
+    --pink: #FEE9E8;
+    --round: 6px;
+}
+
 @font-face {
     font-family: 'JetBrains Mono';
     src: url("./Assets/Fonts/JetBrainsMono-Regular.ttf") format("otf");
@@ -8,7 +19,7 @@
 @font-face {
     font-family: 'JetBrains Mono';
     src: url("./Assets/Fonts/JetBrainsMono-Bold.ttf") format("otf");
-    font-weight: 800;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -23,6 +34,10 @@ body {
     margin: 0;
     font-family: "JetBrains Mono", sans-serif;
     font-weight: 500;
+    padding: 0 200px 0 200px;
+}
+body * {
+    font-family: "JetBrains Mono", sans-serif;
 }
 
 html {
