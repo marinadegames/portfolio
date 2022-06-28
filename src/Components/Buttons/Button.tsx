@@ -18,9 +18,16 @@ export const Button = ({color, styles, title, icon}: PropsType) => {
         setColorBtn(color ? color : 'black')
     }, [])
 
+    const colorSelector = () => {
+        if (colorBtn === 'black') return s.black
+        if (colorBtn === 'blue') return s.blue
+        if (colorBtn === 'yellow') return s.yellow
+        if (colorBtn === 'red') return s.red
+        if (colorBtn === 'green') return s.green
+    }
 
     return (
-        <button className={s.black}
+        <button className={colorSelector()}
                 style={styles ? styles : {}}>
             {icon ? <img className={s.button_icon}
                          alt={'iconButton'}

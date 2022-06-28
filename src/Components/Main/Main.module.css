@@ -1,0 +1,93 @@
+.main {
+    height: 85vh;
+}
+
+.mainContainer {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--pink);
+    border-radius: 40px;
+    height: 620px;
+}
+
+.box {
+    width: 500px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.frontendBox {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frontendTitle {
+    margin: 17px 0 17px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red);
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 287px;
+    border: 2px solid var(--black);
+    filter: drop-shadow(3px 4px 0px var(--black));
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.frontendTitle:hover {
+    transform: scaleX(1.02) translateX(-5px) translateY(-5px);
+    translate: 5px;
+    filter: drop-shadow(6px 7px 0px var(--black));
+}
+
+.developerText {
+
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height:10vh;
+    width: 100%;
+}
+.arrowDown {
+    animation: 1.5s ease-in infinite reverse;
+    animation-name: arrowAnim;
+}
+
+@keyframes arrowAnim {
+    0%   {margin-top: -10px }
+    50%  {margin-top: 10px }
+    100% {margin-top: -10px }
+}
+
+.avatar {
+    height: 500px;
+    border: 2px solid var(--red);
+    border-radius: 1000px;
+    transition: 0.15s;
+
+}
+.avatar:hover {
+    transform: translateX(-10px) translateY(-10px);
+    translate: 5px;
+    filter: drop-shadow(10px 11px 0px var(--red));
+}
