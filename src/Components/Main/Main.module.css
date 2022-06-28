@@ -84,10 +84,5 @@
     border: 2px solid var(--red);
     border-radius: 1000px;
     transition: 0.15s;
-
-}
-.avatar:hover {
-    transform: translateX(-10px) translateY(-10px);
-    translate: 5px;
     filter: drop-shadow(10px 11px 0px var(--red));
 }

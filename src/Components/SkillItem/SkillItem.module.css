@@ -1,0 +1,8 @@
+.skillItem {
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.skillItem:hover{
+    transform: scale(1.05);
+}

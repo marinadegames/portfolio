@@ -1,0 +1,36 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid green;*/
+    height: 80vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+    color: white;
+    height: 600px;
+    width: 118px;
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    filter: drop-shadow(4px 6px 0px var(--black));
+    border: 2px solid var(--black);
+    margin: 0 35px 0 0;
+}
+
+.rotate_title {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.skillsItems {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 600px;
+    width: 100%;
+}
