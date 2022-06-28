@@ -1,3 +1,7 @@
 .navContainer {
-
+    display: flex;
+    align-items: center;
+}
+.navItem {
+    margin: 0 30px 0 30px;
 }

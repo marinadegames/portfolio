@@ -1,12 +1,12 @@
 import s from './Buttons.module.css'
 import {ButtonColors} from "../../Utils/types";
-import {useEffect, useState} from "react";
+import {CSSProperties, useEffect, useState} from "react";
 
 type PropsType = {
     color?: ButtonColors
-    styles?: CSSStyleSheet
+    styles?: CSSProperties
     title: string
-    icon?: ImageData
+    icon?: string
 
 }
 
@@ -18,11 +18,13 @@ export const Button = ({color, styles, title, icon}: PropsType) => {
         setColorBtn(color ? color : 'black')
     }, [])
 
+
     return (
-        <button style={{
-            border: `2px solid var(--${colorBtn})`
-        }}
-                className={s.customButton}>
+        <button className={s.black}
+                style={styles ? styles : {}}>
+            {icon ? <img className={s.button_icon}
+                         alt={'iconButton'}
+                         src={icon}/> : null}
             {title}
         </button>
     )
