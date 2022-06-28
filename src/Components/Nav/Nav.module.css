@@ -2,6 +2,31 @@
     display: flex;
     align-items: center;
 }
+
 .navItem {
     margin: 0 30px 0 30px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    color: #000000;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.navItem:after {
+    margin: 5px 0 0 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: var(--blue);
+    content: "";
+    transition: width 0.2s ease-out;
+}
+
+.navItem:hover:after,
+.navItem:focus:after {
+    width: 100%;
 }
