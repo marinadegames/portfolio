@@ -1,7 +1,5 @@
-import s from "../SkillItem/SkillItem.module.css";
 import React, {ReactElement, useState} from "react";
 import gitHub_icon from '../../Assets/Images/git_black.png'
-import {Button} from "../Buttons/Button";
 import ArrowRight from "../../Assets/Images/ArrowRight";
 import git_icon_white from '../../Assets/Images/git.png'
 
@@ -18,7 +16,6 @@ type PropsType = {
     linkGitHub?: string
     gitWhite?: boolean
 }
-
 
 export const ProjectItem = ({
                                 linkPage,
@@ -90,7 +87,7 @@ export const ProjectItem = ({
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 borderRadius: 1000,
-                            }}>{hover ? <span style={{fontSize: 23}}>
+                            }}>{hover ? <span style={{fontSize: 20}}>
                             show</span> : <ArrowRight/>}</button>
                     </a>}
                 </div>

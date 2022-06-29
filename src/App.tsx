@@ -4,6 +4,7 @@ import {Header} from "./Components/Header/Header";
 import {Main} from "./Components/Main/Main";
 import {Skills} from "./Components/Skills/Skills";
 import {Projects} from "./Components/Projects/Projects";
+import {Remote} from "./Components/Remote/Remote";
 
 export const App = () => {
     return (
@@ -12,6 +13,7 @@ export const App = () => {
             <Main/>
             <Skills/>
             <Projects/>
+            <Remote/>
         </div>
     );
 }
