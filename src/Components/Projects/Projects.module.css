@@ -1,16 +1,16 @@
-.skillsContainer {
+.projectsContainer {
     display: flex;
     flex-direction: row;
     /*border: 1px solid green;*/
     height: 60vh;
 }
 
-.title {
+.titleProjects {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--green);
-    color: white;
+    background-color: var(--yellow);
+    color: var(--black);
     height: 600px;
     width: 118px;
     border-radius: 15px;
@@ -26,7 +26,7 @@
     transform: rotate(180deg);
 }
 
-.skillsItems {
+.projectItems {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
