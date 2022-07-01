@@ -1,0 +1,32 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    margin: 0 0 100px 0;
+}
+
+.fromTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    font-family: "JetBrains Mono", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    border: 2px solid var(--blue);
+    background: rgba(23, 71, 231, 0.04);
+    border-radius: 15px;
+}
