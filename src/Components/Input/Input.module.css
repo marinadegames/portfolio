@@ -25,6 +25,7 @@
     height: 50px;
     border-radius: 6px;
     width: 460px;
+    color: var(--red);
     filter: drop-shadow(4px 5px 0px var(--red));
     font-size: 20px;
     font-weight: bold;

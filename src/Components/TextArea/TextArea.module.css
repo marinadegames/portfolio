@@ -1,0 +1,23 @@
+.textArea {
+    position: inherit;
+    border: 2px solid var(--blue);
+    min-height: 230px;
+    border-radius: 6px;
+    min-width: 460px;
+    max-width: 460px;
+ resize: none;
+    filter: drop-shadow(4px 5px 0px var(--blue));
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    outline: none;
+    transition: 0.15s;
+    margin: 0 0 42px 0;
+}
+.textArea:focus{
+    translate: 5px;
+    filter: drop-shadow(8px 9px 0px var(--blue));
+}
+.textArea::placeholder {
+    color: #B3B5BD;
+}
