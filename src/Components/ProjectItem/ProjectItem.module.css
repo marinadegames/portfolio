@@ -46,9 +46,11 @@
     height: 30px;
     opacity: 60%;
 }
+
 .btnSpan {
     display: none;
 }
+
 .button {
     width: 50px;
     height: 50px;
@@ -61,29 +63,51 @@
     border-radius: 1000px;
     transition: 0.20s;
 }
+
 .button:hover {
     width: 120px;
+}
+.btnSpan {
+    font-size: 20px;
 }
 .button:hover .btnSpan {
     display: block;
 }
 
 
-
 @media (max-width: 1000px) {
     .projectItem {
         margin: 20px;
         height: auto;
+        padding: 30px;
         min-height: 300px;
-        width: 80%;
+        width: 100%;
         justify-content: space-evenly;
     }
-.icon {
-    height: 100px;
-}
-.gitIcon {
-    height: 50px;
-}
+    .box {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .button {
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+    }
+    .button:hover {
+        width: 150px ;
+    }
+    .button:hover .btnSpan {
+        display: none;
+    }
+    .icon {
+        height: 100px;
+    }
+
+    .gitIcon {
+        height: 90px;
+        opacity: 40%;
+    }
+
     .title {
         font-size: 45px;
     }

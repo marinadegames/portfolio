@@ -73,7 +73,7 @@ export const ProjectItem = ({
                             onMouseEnter={onHover}
                             onMouseLeave={offHover}
                             style={{color: backgroundColor, backgroundColor: shadowColor}}>
-                            <span className={s.btnSpan} style={{fontSize: 20}}>
+                            <span className={s.btnSpan}>
                             show</span><ArrowRight/></button>
                     </a>}
                 </div>
