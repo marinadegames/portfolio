@@ -114,6 +114,23 @@
     filter: drop-shadow(6px 7px 0px var(--green));
 }
 
+.disabled {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+    background-color: white;
+    height: 50px;
+    min-width: 165px;
+    border-radius: var(--round);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid gray;
+    filter: drop-shadow(3px 4px 0px gray);
+    transition: 0.15s;
+    cursor: pointer;
+}
+
 /* === OTHER === */
 .button_icon {
     width: 30px;

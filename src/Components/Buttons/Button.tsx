@@ -7,18 +7,23 @@ type PropsType = {
     styles?: CSSProperties
     title: string
     icon?: string
-
+    onClick?: () => void
+    disabled?: boolean
 }
 
-export const Button = ({color, styles, title, icon}: PropsType) => {
+export const Button = ({color, styles, title, icon, onClick, disabled}: PropsType) => {
 
     const [colorBtn, setColorBtn] = useState<ButtonColors>('black')
 
     useEffect(() => {
+        if (disabled){
+            setColorBtn('disabled')
+        }
         setColorBtn(color ? color : 'black')
     }, [])
 
     const colorSelector = () => {
+        if (disabled) return s.disabled
         if (colorBtn === 'black') return s.black
         if (colorBtn === 'blue') return s.blue
         if (colorBtn === 'yellow') return s.yellow
@@ -28,6 +33,8 @@ export const Button = ({color, styles, title, icon}: PropsType) => {
 
     return (
         <button className={colorSelector()}
+                disabled={disabled}
+                onClick={onClick}
                 style={styles ? styles : {}}>
             {icon ? <img className={s.button_icon}
                          alt={'iconButton'}

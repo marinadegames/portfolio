@@ -1,1 +1,1 @@
-export type ButtonColors = 'black' | 'yellow' | 'red' | 'green' | 'blue'
+export type ButtonColors = 'black' | 'yellow' | 'red' | 'green' | 'blue' | 'disabled'

@@ -28,17 +28,8 @@
     height: 333px;
 }
 
-@media (max-width: 1554px) {
+@media (max-width: 1000px) {
     .remoteContainer {
-        height: 200px;
-    }
-    .title {
-        font-size: 30px;
-    }
-    .human1 {
-        left: -50px;
-    }
-    .human2 {
-        right: 40px;
+        display: none;
     }
 }

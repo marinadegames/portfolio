@@ -19,6 +19,7 @@
 }
 
 .form {
+    position: relative;
     padding: 0 0 50px 0;
     display: flex;
     justify-content: flex-start;
@@ -35,8 +36,32 @@
 @media (max-width: 1000px) {
     .form input {
         width: 100%;
+        border-radius: 15px;
     }
+
     .form {
+        border-radius: 15px;
         width: 100%;
     }
+
+    .form button {
+        border-radius: 15px;
+    }
+
+    .form textarea {
+        border-radius: 15px;
+    }
+}
+
+.respMessage {
+    position: absolute;
+    bottom: 30px;
+    font-size: 30px;
+    color: var(--blue);
+}
+.respMessageError {
+    position: absolute;
+    bottom: 30px;
+    font-size: 30px;
+    color: var(--red);
 }
