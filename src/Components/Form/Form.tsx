@@ -2,6 +2,7 @@ import s from './Form.module.css'
 import {Input} from "../Input/Input";
 import {useCallback, useState} from "react";
 import {TextArea} from "../TextArea/TextArea";
+import {Button} from "../Buttons/Button";
 
 export const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
 
@@ -43,7 +44,19 @@ export const Form = () => {
                        callback={changeEmailCallback}
                        errorCallback={changeEmailError}
                        placeholder={'Email'}/>
-                <TextArea placeholder={'Your message'} callback={changeTextareaCallback}/>
+                <TextArea placeholder={'Your message'}
+                          callback={changeTextareaCallback}
+                styles={{
+                    width: window.screen.width > 1000 ? '80%' : '100%',
+                }}
+                />
+                <Button title={'Write me!'}
+                        color={'blue'}
+                        styles={{
+                            height: window.screen.width > 1000 ? 50 : 150,
+                            width: window.screen.width > 1000 ?  200 : 500,
+                            fontSize: window.screen.width > 1000 ? 30 : 60,
+                        }}/>
             </form>
         </div>
     )

@@ -1,6 +1,7 @@
 .skillItem {
     cursor: pointer;
     transition: 1.5s;
+    margin: 10px;
 }
 
 .skillItem:hover{

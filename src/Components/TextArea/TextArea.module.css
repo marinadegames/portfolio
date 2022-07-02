@@ -21,3 +21,14 @@
 .textArea::placeholder {
     color: #B3B5BD;
 }
+
+
+@media (max-width: 1000px) {
+    .textArea {
+        font-size: 40px;
+        max-width: 80%;
+    }
+    .textArea::placeholder{
+        font-size: 40px;
+    }
+}

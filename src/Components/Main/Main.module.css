@@ -1,5 +1,7 @@
+/* STYLES */
+
 .main {
-    height: 85vh;
+    height: 90vh;
 }
 
 .mainContainer {
@@ -10,10 +12,14 @@
     justify-content: space-between;
     background-color: var(--pink);
     border-radius: 40px;
-    height: 620px;
 }
 
-.box {
+.boxLeft {
+    width: 500px;
+}
+.boxRight {
+    display: flex;
+    justify-content: flex-end;
     width: 500px;
 }
 
@@ -85,4 +91,105 @@
     border-radius: 1000px;
     transition: 0.15s;
     filter: drop-shadow(10px 11px 0px var(--red));
+}
+
+
+/* MEDIA QUIRES */
+/*
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px
+xl: 1200px
+xxl: 1400px
+*/
+
+
+@media (max-width: 1670px) {
+    .boxRight {
+        width: 300px;
+    }
+    .boxLeft {
+        width: 700px;
+    }
+    .avatar {
+        height: 300px;
+    }
+    .mainContainer {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1554px) {
+    .mainContainer {
+        justify-content: center;
+        flex-direction: column;
+        height: 75vh;
+        padding: 20px;
+    }
+    .boxRight {
+        justify-content: center;
+        width: 100%;
+    }
+    .boxLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+    .avatar {
+        align-items: center;
+    }
+    .boxLeft button {
+        width: 100px;
+    }
+    .title {
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .frontendBox {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .title {
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .frontendBox {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0 0 50px 0;
+    }
+    .frontendTitle{
+        font-size: 70px;
+        width: 500px;
+        height: 100px;
+    }
+    .boxLeft button {
+        height: 100px;
+        width: 400px;
+        font-size: 50px;
+        border-radius: 10px;
+    }
+    .developerText{
+        font-size: 40px;
+    }
+    .scroll {
+        font-size: 70px;
+    }
+    .arrowDown {
+        height: 80px;
+    }
 }

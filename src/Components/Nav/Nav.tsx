@@ -11,7 +11,6 @@ export const Nav = () => {
             <Button color={"black"}
                     title={'Send me'}
                     styles={{margin: '0 0 0 30px'}}/>
-
         </div>
     )
 }

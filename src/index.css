@@ -43,3 +43,9 @@ body * {
 html {
     /*scroll-behavior: smooth;*/
 }
+
+@media (min-width: 0px)and (max-width: 1300px) {
+    body {
+        padding: 0 50px 0 50px;
+    }
+}

@@ -8,7 +8,7 @@ export const Main = () => {
     return (
         <div className={s.main}>
             <div className={s.mainContainer}>
-                <div className={s.box}>
+                <div className={s.boxLeft}>
                     <span className={s.title}>I'm Eugene Pashkevich</span>
                     <div className={s.frontendBox}>
                         <div className={s.frontendTitle}>Frontend</div>
@@ -16,8 +16,8 @@ export const Main = () => {
                     </div>
                     <Button title={'Show more'} color={'blue'}/>
                 </div>
-                <div className={s.box}>
-                    <img className={s.avatar} src={avatar}/>
+                <div className={s.boxRight}>
+                    <img className={s.avatar} alt={avatar} src={avatar}/>
                 </div>
             </div>
             <div className={s.scroll}>

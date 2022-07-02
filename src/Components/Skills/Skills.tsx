@@ -63,7 +63,7 @@ export const Skills = () => {
                 <SkillItem title={'CSS'}
                            colorFont={'white'}
                            icon={css_icon}
-                           borderColor={'whites'}
+                           borderColor={'white'}
                            backgroundColor={'#1262D5'}
                            shadowColor={'#1262D5'}/>
                 <SkillItem title={'NodeJS'}
