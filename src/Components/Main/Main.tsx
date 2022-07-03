@@ -2,6 +2,7 @@ import s from './Main.module.css'
 import {Button} from "../Buttons/Button";
 import ArrowDown from "../../Assets/Images/ArrowDown";
 import avatar from '../../Assets/Images/avatar.jpg'
+import {Link} from "react-scroll";
 
 
 export const Main = () => {
@@ -14,7 +15,13 @@ export const Main = () => {
                         <div className={s.frontendTitle}>Frontend</div>
                         <span className={s.developerText}>-developer</span>
                     </div>
-                    <Button title={'Show more'} color={'blue'}/>
+                    <Link to={'skills'}
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}>
+                        <Button title={'Show more'} color={'blue'}/>
+                    </Link>
                 </div>
                 <div className={s.boxRight}>
                     <img className={s.avatar} alt={avatar} src={avatar}/>

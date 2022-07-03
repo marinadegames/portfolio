@@ -84,6 +84,7 @@ export const Form = () => {
     return (
         <div className={s.formContainer}>
             <form onSubmit={event => event.preventDefault()}
+                  id={'form'}
                   className={s.form}>
                 <div className={s.fromTitle}>Write me</div>
                 <Input value={name} callback={changeNameCallback} placeholder={'Name'}/>
