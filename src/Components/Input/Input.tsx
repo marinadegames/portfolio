@@ -10,13 +10,11 @@ type PropsType = {
     errorCallback?: (value: boolean) => void
 }
 
-export const Input = ({placeholder, value, errorCallback, styles, callback, error}: PropsType) => {
-
+export const Input = ({placeholder, value, styles, callback, error}: PropsType) => {
 
     const callbackHandler = (value: string) => {
         callback(value)
     }
-
 
     return (
         <div style={{position: "relative", display: "flex", flexDirection: "column"}}>

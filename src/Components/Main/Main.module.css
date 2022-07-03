@@ -157,8 +157,7 @@ xxl: 1400px
     }
 }
 
-@media (max-width: 1000px) {
-
+@media (max-width: 1300px) {
     .title {
         font-size: 80px;
         width: 100%;

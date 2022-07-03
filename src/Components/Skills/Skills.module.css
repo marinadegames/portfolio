@@ -34,29 +34,14 @@
     align-items: flex-start;
 }
 
-/*@media (max-width: 1554px) {*/
-/*    .skillsContainer {*/
-/*        flex-direction: column;*/
-
-/*    }*/
-/*    .title {*/
-/*        width: 100%;*/
-/*        min-height: 0;*/
-/*        height: 100px;*/
-/*    }*/
-/*    .rotate_title {*/
-/*        writing-mode: unset;*/
-/*        transform: rotate(0deg);*/
-/*    }*/
-/*}*/
-
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .skillsContainer {
         flex-direction: column;
         justify-content: space-between;
     }
 
     .skillsItems {
+
         justify-content: space-evenly;
     }
 

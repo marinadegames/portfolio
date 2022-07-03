@@ -6,17 +6,22 @@ import {Skills} from "./Components/Skills/Skills";
 import {Projects} from "./Components/Projects/Projects";
 import {Remote} from "./Components/Remote/Remote";
 import {Form} from "./Components/Form/Form";
+import {Footer} from "./Components/Footer/Footer";
 
 
 export const App = () => {
     return (
-        <div className={s.App}>
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Remote/>
-            <Form/>
-        </div>
+        <>
+            <div className={s.App}>
+                <Header/>
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Remote/>
+                <Form/>
+            </div>
+            <Footer/>
+        </>
+
     );
 }

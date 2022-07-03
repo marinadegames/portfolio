@@ -1,119 +1,3 @@
-/* === BUTTON COLOR ===*/
-.black {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--black);
-    background-color: white;
-    height: 50px;
-    min-width: 165px;
-    border: 2px solid var(--black);
-    border-radius: var(--round);
-    font-size: 20px;
-    font-weight: bold;
-    filter: drop-shadow(3px 4px 0px var(--black));
-    transition: 0.15s;
-    cursor: pointer;
-}
-
-.black:hover {
-    transform: scaleX(1.05) translateX(-5px) translateY(-5px);
-    translate: 5px;
-    filter: drop-shadow(6px 7px 0px var(--black));
-}
-
-.blue {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--blue);
-    background-color: white;
-    height: 50px;
-    min-width: 165px;
-    border-radius: var(--round);
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid var(--blue);
-    filter: drop-shadow(3px 4px 0px var(--blue));
-    transition: 0.15s;
-    cursor: pointer;
-}
-
-.blue:hover {
-    transform: scaleX(1.05) translateX(-5px) translateY(-5px);
-    translate: 5px;
-    filter: drop-shadow(6px 7px 0px var(--blue));
-}
-
-.yellow {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--yellow);
-    background-color: white;
-    height: 50px;
-    min-width: 165px;
-    border-radius: var(--round);
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid var(--yellow);
-    filter: drop-shadow(3px 4px 0px var(--yellow));
-    transition: 0.15s;
-    cursor: pointer;
-}
-
-.yellow:hover {
-    transform: scaleX(1.05) translateX(-5px) translateY(-5px);
-    translate: 5px;
-    filter: drop-shadow(6px 7px 0px var(--yellow));
-}
-
-.red {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--red);
-    background-color: white;
-    height: 50px;
-    min-width: 165px;
-    border-radius: var(--round);
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid var(--red);
-    filter: drop-shadow(3px 4px 0px var(--red));
-    transition: 0.15s;
-    cursor: pointer;
-}
-
-.red:hover {
-    transform: scaleX(1.05) translateX(-5px) translateY(-5px);
-    translate: 5px;
-    filter: drop-shadow(6px 7px 0px var(--red));
-}
-
-.green {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--green);
-    background-color: white;
-    height: 50px;
-    min-width: 165px;
-    border-radius: var(--round);
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid var(--green);
-    filter: drop-shadow(3px 4px 0px var(--green));
-    transition: 0.15s;
-    cursor: pointer;
-}
-
-.red:hover {
-    transform: scaleX(1.05) translateX(-5px) translateY(-5px);
-    translate: 5px;
-    filter: drop-shadow(6px 7px 0px var(--green));
-}
-
 .disabled {
     display: flex;
     justify-content: space-around;
@@ -133,6 +17,11 @@
 
 /* === OTHER === */
 .button_icon {
+    margin: 0 10px 0 10px;
     width: 30px;
     height: 30px;
+}
+
+.footerReserved {
+    font-size: 25px;
 }

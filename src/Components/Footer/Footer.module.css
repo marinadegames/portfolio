@@ -1,0 +1,39 @@
+.footer {
+    background-color: #0000AA;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.footerName {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #000000;
+}
+
+.boxButtons {
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 410px;
+    height: 150px;
+}
+
+@media (max-width: 1300px) {
+    .footer {
+        height: 100vh;
+    }
+    .boxButtons {
+        width: 50%;
+    }
+
+}

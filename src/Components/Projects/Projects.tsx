@@ -22,7 +22,7 @@ export const Projects = () => {
             <div className={s.titleProjects}>
                 <span className={s.rotate_title}>Projects</span>
             </div>
-            <div className={s.projectItems}>
+            <div className={s.projectItems} id={'projects'}>
                 <ProjectItem title={'Moon!msg'}
                              backgroundColor={'var(--background)'}
                              borderColor={'#1C4F7C'}

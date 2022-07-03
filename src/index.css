@@ -34,7 +34,7 @@ body {
     margin: 0;
     font-family: "JetBrains Mono", sans-serif;
     font-weight: 500;
-    padding: 0 200px 0 200px;
+    /*padding: 0 200px 0 200px;*/
 }
 body * {
     font-family: "JetBrains Mono", sans-serif;
@@ -45,7 +45,7 @@ html {
 }
 
 @media (min-width: 0px)and (max-width: 1300px) {
-    body {
+    .App {
         padding: 0 50px 0 50px;
     }
 }

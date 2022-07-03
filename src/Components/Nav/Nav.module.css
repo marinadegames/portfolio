@@ -36,7 +36,7 @@
         display: none;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .navContainer button {
         font-size: 50px;
         height: 100px;
@@ -57,5 +57,11 @@
     .navContainer button:hover {
         translate: 5px;
         filter: drop-shadow(10px 11px 0px var(--black));
+    }
+}
+
+@media (max-width: 1000px) {
+    .navContainer button {
+        width: 100px;
     }
 }

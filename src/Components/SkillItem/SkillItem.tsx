@@ -17,8 +17,8 @@ type GradientType = {
 export const SkillItem = ({gradient, title, icon, borderColor, shadowColor, colorFont, backgroundColor}: PropsType) => {
     return (
         <div className={s.skillItem} style={{
-            height: window.screen.width > 1100 ? 120 : 200,
-            width: window.screen.width > 1100 ?  275 : '100%',
+            height: window.screen.width > 1300 ? 120 : 200,
+            width: window.screen.width > 1300 ?  275 : '100%',
             padding: '0 20px 0 20px',
             borderRadius: 15,
             background: gradient ?  `linear-gradient(98.22deg, ${gradient.firstColor} 12.05%, ${gradient.secondColor} 100%)` : `${backgroundColor}`,
@@ -32,12 +32,12 @@ export const SkillItem = ({gradient, title, icon, borderColor, shadowColor, colo
             <div style={{
                 color: `${colorFont}`,
                 width: '70%',
-                fontSize: window.screen.width > 1000 ? 25 : 50,
+                fontSize: window.screen.width > 1300 ? 25 : 50,
                 fontWeight: 'bold'}}>
                 {title}
             </div>
             <img style={{
-                height: window.screen.width > 1100 ? 70 : 110,
+                height: window.screen.width > 1300 ? 70 : 110,
                 borderRadius: 4}} src={icon} alt={`${icon}`}/>
         </div>
     )
