@@ -16,7 +16,6 @@ export const Footer = () => {
                             icon={email_red_icon}
                             color={"red"}/>
                 </a>
-
                 <a href={'https://github.com/marinadegames'} style={{textDecoration: 'none'}}>
                     <Button styles={{width: 200, height: 60, justifyContent: "flex-start"}}
                             title={'GitHub'}

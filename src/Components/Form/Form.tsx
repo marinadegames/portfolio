@@ -48,19 +48,19 @@ export const Form = () => {
                 return;
             }
             setIsLoading(true)
-            axios.post('http://localhost:5000/message', {
+            axios.post('http://localhost:5000/message/', {
                 name: name,
                 email: email,
                 message: textarea
             }).then(resp => {
-                setRespMsg({msg: resp, error: false})
                 console.log(resp)
                 setBtnDisabled(true)
                 setName('')
                 setEmail('')
                 setTextarea('')
+                setRespMsg({msg: 'Successful!', error: false})
             }).catch(err => {
-                setRespMsg({msg: err, error: true})
+                setRespMsg({msg: 'Error!', error: true})
                 setIsLoading(false)
                 console.error(err)
             }).finally(() => {
