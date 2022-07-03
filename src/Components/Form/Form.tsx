@@ -4,6 +4,7 @@ import {useCallback, useEffect, useState} from "react";
 import {TextArea} from "../TextArea/TextArea";
 import {Button} from "../Buttons/Button";
 import {Spinner} from "../Spinner/Spinner";
+import axios from 'axios';
 
 export const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
 
@@ -47,10 +48,10 @@ export const Form = () => {
                 return;
             }
             setIsLoading(true)
-            new Promise((res, rej) => {
-                setTimeout(() => {
-                    res('Message sent!')
-                }, 2000)
+            axios.post('http://localhost:5000/message', {
+                name: name,
+                email: email,
+                message: textarea
             }).then(resp => {
                 setRespMsg({msg: resp, error: false})
                 console.log(resp)

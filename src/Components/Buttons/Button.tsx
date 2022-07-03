@@ -10,10 +10,9 @@ type PropsType = {
     onClick?: () => void
     disabled?: boolean
     myColor?: string
-    link?: string
 }
 
-export const Button = ({link, color, styles, title, icon, onClick, disabled, myColor}: PropsType) => {
+export const Button = ({color, styles, title, icon, onClick, disabled, myColor}: PropsType) => {
 
     const [colorBtn, setColorBtn] = useState<ButtonColors>('black')
     const [hover, setHover] = useState<boolean>(false)
@@ -58,7 +57,6 @@ export const Button = ({link, color, styles, title, icon, onClick, disabled, myC
     }
 
     return (
-        <a href={link ? link : ''} style={{textDecoration: "none"}}>
             <button disabled={disabled}
 
                     onClick={onClick}
@@ -66,14 +64,12 @@ export const Button = ({link, color, styles, title, icon, onClick, disabled, myC
                         ? {...customStyles, ...hoverStyles, ...styles}
                         : {...customStyles, ...styles}}
                     onMouseEnter={() => setHover(true)}
-                    onMouseLeave={() => setHover(false)}
-            >
+                    onMouseLeave={() => setHover(false)}>
                 {icon ? <img className={s.button_icon}
                              alt={'iconButton'}
                              src={icon}/> : null}
                 {title}
             </button>
-        </a>
     )
 }
 
