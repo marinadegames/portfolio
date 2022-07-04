@@ -48,7 +48,7 @@ export const Form = () => {
                 return;
             }
             setIsLoading(true)
-            axios.post('http://localhost:5000/message/', {
+            axios.post('https://portfolio-eugenepash-back.herokuapp.com/message/', {
                 name: name,
                 email: email,
                 message: textarea
