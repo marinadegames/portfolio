@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6c62d3e6.css",
-    "main.js": "/portfolio/static/js/main.dd5289f2.js",
+    "main.css": "/portfolio/static/css/main.1a7207eb.css",
+    "main.js": "/portfolio/static/js/main.8073c6ae.js",
     "static/media/holySheep.png": "/portfolio/static/media/holySheep.3e9bafab3878ffbcfd23.png",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.ad2b39118af5af666102.jpg",
     "static/media/JetBrainsMono-Light.ttf": "/portfolio/static/media/JetBrainsMono-Light.90262e10eb8bbf612ff0.ttf",
@@ -30,11 +30,11 @@
     "static/media/postman_logo.png": "/portfolio/static/media/postman_logo.4908742583c1adf8b790.png",
     "static/media/typescript.png": "/portfolio/static/media/typescript.fdb14fa89a46c7efa680.png",
     "index.html": "/portfolio/index.html",
-    "main.6c62d3e6.css.map": "/portfolio/static/css/main.6c62d3e6.css.map",
-    "main.dd5289f2.js.map": "/portfolio/static/js/main.dd5289f2.js.map"
+    "main.1a7207eb.css.map": "/portfolio/static/css/main.1a7207eb.css.map",
+    "main.8073c6ae.js.map": "/portfolio/static/js/main.8073c6ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c62d3e6.css",
-    "static/js/main.dd5289f2.js"
+    "static/css/main.1a7207eb.css",
+    "static/js/main.8073c6ae.js"
   ]
 }
