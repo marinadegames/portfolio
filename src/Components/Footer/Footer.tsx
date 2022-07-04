@@ -10,7 +10,7 @@ const btnStylesResponsive:CSSProperties = {
     width: window.screen.width < 1300 ? 500 : 200,
     height: window.screen.width < 1300 ? 120 : 60,
     justifyContent: "flex-start",
-    fontSize: 40,
+    fontSize: window.screen.width < 1300 ? 40 : 20,
     margin: window.screen.width < 1300 ? '20px 0 20px 0' : "auto"
 }
 
