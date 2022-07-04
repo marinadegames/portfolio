@@ -20,7 +20,11 @@ export const Main = () => {
                           smooth={true}
                           offset={-70}
                           duration={500}>
-                        <Button title={'Show more'} color={'blue'}/>
+                        <Button title={'Show more'} color={'blue'} styles={{
+                            height: window.screen.width < 1300 ? 90 : 50,
+                            width: window.screen.width < 1300 ? 400 : 165,
+                            fontSize: window.screen.width < 1300 ? 50 : 20,
+                        }}/>
                     </Link>
                 </div>
                 <div className={s.boxRight}>

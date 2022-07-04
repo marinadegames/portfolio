@@ -158,6 +158,9 @@ xxl: 1400px
 }
 
 @media (max-width: 1300px) {
+    .avatar {
+        height: 500px;
+    }
     .title {
         font-size: 80px;
         width: 100%;

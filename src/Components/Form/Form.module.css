@@ -31,12 +31,14 @@
     background: rgba(23, 71, 231, 0.04);
     border-radius: 15px;
 }
+
 .respMessage {
     position: absolute;
     bottom: 30px;
     font-size: 30px;
     color: var(--blue);
 }
+
 .respMessageError {
     position: absolute;
     bottom: 30px;
@@ -46,6 +48,11 @@
 
 
 @media (max-width: 1000px) {
+    textarea, input {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
     .form input {
         width: 100%;
         border-radius: 15px;
@@ -58,10 +65,11 @@
 
     .form button {
         border-radius: 15px;
-        height: 80px;
     }
 
     .form textarea {
+        max-width: 70%;
+        min-height: 230px;
         border-radius: 15px;
     }
 }

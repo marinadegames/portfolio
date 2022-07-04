@@ -19,9 +19,9 @@
 }
 
 .boxButtons {
+    display: flex;
     flex-wrap: wrap;
     margin: 20px 0 20px 0;
-    display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 410px;
@@ -30,10 +30,32 @@
 
 @media (max-width: 1300px) {
     .footer {
+        position: relative;
+        border-radius: 0;
         height: 100vh;
     }
-    .boxButtons {
-        width: 50%;
+
+    .footerName {
+        font-size: 80px;
     }
 
+    .boxButtons button img {
+        height: 50px;
+        width: 50px;
+        margin: 0 30px 0 30px;
+    }
+
+    .boxButtons {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 90%;
+    }
+    .footerReserved {
+        position: absolute;
+        bottom: 80px;
+        font-size: 40px;
+    }
 }

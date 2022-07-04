@@ -21,8 +21,6 @@ export const Input = ({placeholder, value, styles, callback, error}: PropsType) 
             <input placeholder={placeholder}
                    style={styles ? styles : {}}
                    value={value}
-                   onBlur={() => {
-                   }}
                    onChange={e => callbackHandler(e.currentTarget.value)}
                    className={error ? s.inputError : s.input}/>
             {error && <small className={s.errorMessage}>Wrong email!</small>}

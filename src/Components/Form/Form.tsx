@@ -88,7 +88,9 @@ export const Form = () => {
                   id={'form'}
                   className={s.form}>
                 <div className={s.fromTitle}>Write me</div>
-                <Input value={name} callback={changeNameCallback} placeholder={'Name'}/>
+                <Input value={name}
+                       callback={changeNameCallback}
+                       placeholder={'Name'}/>
                 <Input value={email}
                        error={errorEmail}
                        callback={changeEmailCallback}
@@ -97,7 +99,7 @@ export const Form = () => {
                 <TextArea placeholder={'Your message'}
                           value={textarea}
                           callback={changeTextareaCallback}
-                          styles={{width: window.screen.width > 1000 ? '80%' : '100%'}}/>
+                          styles={{width: window.screen.width > 1000 ? '100%' : '100%'}}/>
                 {isLoading
                     ? <Spinner size={'100px'} color={'#1747E7'}/>
                     : <Button title={'Write me!'}
@@ -105,9 +107,9 @@ export const Form = () => {
                               disabled={btnDisabled}
                               onClick={sendMeMessage}
                               styles={{
-                                  height: window.screen.width > 1000 ? 50 : 150,
-                                  width: window.screen.width > 1000 ? 200 : 500,
-                                  fontSize: window.screen.width > 1000 ? 30 : 60,
+                                  height: window.screen.width > 1000 ? 50 : 90,
+                                  width: window.screen.width > 1000 ? 200 : 400,
+                                  fontSize: window.screen.width > 1000 ? 30 : 50,
                               }}/>}
                 {respMsg.msg &&
                     <small className={respMsg.error ? s.respMessageError : s.respMessage}>{respMsg.msg}</small>}
