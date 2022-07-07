@@ -6,7 +6,7 @@ import {Link} from "react-scroll";
 
 export const Remote = () => {
     return (
-        <div className={s.remoteContainer}>
+        <div className={s.remoteContainer} data-scroll-section>
             <Human1 className={s.human1}/>
             <span className={s.title}>Considering remote work options</span>
             <Link to={'form'}

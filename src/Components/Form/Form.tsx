@@ -83,7 +83,7 @@ export const Form = () => {
     }, [name, email, textarea])
 
     return (
-        <div className={s.formContainer}>
+        <div className={s.formContainer} data-scroll-section>
             <form onSubmit={event => event.preventDefault()}
                   id={'form'}
                   className={s.form}>

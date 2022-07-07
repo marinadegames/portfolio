@@ -4,9 +4,9 @@ import s from './Logo.module.css'
 
 export const Logo = () => {
     return (
-        <div className={s.logoContainer}>
-            <img className={s.logo} alt={'logo'} src={logo_icon}/>
-            <span className={s.logoTitle}>Marinade</span>
+        <div className={s.logoContainer} data-scroll-section>
+            <img className={s.logo} alt={'logo'} src={logo_icon} data-scroll/>
+            <span className={s.logoTitle} data-scroll>Marinade</span>
         </div>
     )
 }

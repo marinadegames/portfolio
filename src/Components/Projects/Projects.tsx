@@ -18,7 +18,7 @@ const covidKillerDescription = <span>This is my JS game. Made in <b>JS canvas</b
 
 export const Projects = () => {
     return (
-        <div className={s.projectsContainer}>
+        <div className={s.projectsContainer} data-scroll-section>
             <div className={s.titleProjects}>
                 <span className={s.rotate_title}>Projects</span>
             </div>

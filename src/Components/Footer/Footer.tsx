@@ -16,7 +16,7 @@ const btnStylesResponsive:CSSProperties = {
 
 export const Footer = () => {
     return (
-        <div className={s.footer}>
+        <div className={s.footer} data-scroll-section>
             <span className={s.footerName}>Eugene Pashkevich</span>
             <div className={s.boxButtons} id={'footer'}>
                 <a href={'mailto:eugenepash@gmail.com'} style={{textDecoration: 'none'}}>

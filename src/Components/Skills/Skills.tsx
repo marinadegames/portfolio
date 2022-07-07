@@ -19,7 +19,7 @@ import git_icon from '../../Assets/Images/git.png'
 
 export const Skills = () => {
     return (
-        <div className={s.skillsContainer} id={'skills'}>
+        <div className={s.skillsContainer} id={'skills'} data-scroll-section>
             <div className={s.title}>
                 <span className={s.rotate_title}>Skills</span>
             </div>
