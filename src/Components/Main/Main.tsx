@@ -8,9 +8,9 @@ import {useLocomotiveScroll} from "react-locomotive-scroll";
 
 export const Main = () => {
     return (
-        <div className={s.main} data-scroll-section>
+        <div data-scroll-section className={s.main} >
             <div className={s.mainContainer}>
-                <div className={s.boxLeft}>
+                <div data-scroll data-scroll-position="bottom" className={s.boxLeft}>
                     <span className={s.title}>I'm Eugene Pashkevich</span>
                     <div className={s.frontendBox}>
                         <div className={s.frontendTitle}>Frontend</div>

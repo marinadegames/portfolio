@@ -7,18 +7,17 @@ import {Projects} from "./Components/Projects/Projects";
 import {Remote} from "./Components/Remote/Remote";
 import {Form} from "./Components/Form/Form";
 import {Footer} from "./Components/Footer/Footer";
-// @ts-ignore
-import locomotiveScroll from "locomotive-scroll";
+import LocomotiveScroll from "locomotive-scroll";
 
 
 export const App = () => {
 
-    const scrollRef = React.createRef<any>()
+    const scrollRef = React.createRef()
 
     useEffect(() => {
-        const scroll = new locomotiveScroll({
-            el: scrollRef.current,
-            smooth: false
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
         });
     });
 
@@ -26,7 +25,7 @@ export const App = () => {
     return (
 
         <div className="scroll" ref={scrollRef}>
-            <div className={s.App}>
+            <div className={s.App} data-scroll-container>
                 <Header/>
                 <Main/>
                 <Skills/>
