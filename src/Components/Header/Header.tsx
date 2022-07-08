@@ -4,7 +4,7 @@ import {Nav} from "../Nav/Nav";
 
 export const Header = () => {
     return (
-        <div className={s.header} data-scroll-section>
+        <div className={s.header}>
             <Logo/>
             <Nav/>
         </div>

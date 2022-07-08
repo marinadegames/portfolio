@@ -19,11 +19,11 @@ import git_icon from '../../Assets/Images/git.png'
 
 export const Skills = () => {
     return (
-        <div className={s.skillsContainer} id={'skills'} data-scroll-section>
+        <div className={s.skillsContainer} id={'skills'}>
             <div className={s.title}>
                 <span className={s.rotate_title}>Skills</span>
             </div>
-            <div className={s.skillsItems}>
+            <div className={s.skillsItems} >
                 <SkillItem title={'React'}
                            colorFont={'white'}
                            icon={react_icon}
@@ -123,7 +123,6 @@ export const Skills = () => {
                            borderColor={'white'}
                            backgroundColor={'black'}
                            shadowColor={'black'}/>
-
             </div>
         </div>
     )

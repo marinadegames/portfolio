@@ -3,14 +3,13 @@ import {Button} from "../Buttons/Button";
 import ArrowDown from "../../Assets/Images/ArrowDown";
 import avatar from '../../Assets/Images/avatar.jpg'
 import {Link} from "react-scroll";
-import {useLocomotiveScroll} from "react-locomotive-scroll";
 
 
 export const Main = () => {
     return (
-        <div data-scroll-section className={s.main} >
+        <div className={s.main} >
             <div className={s.mainContainer}>
-                <div data-scroll data-scroll-position="bottom" className={s.boxLeft}>
+                <div className={s.boxLeft}>
                     <span className={s.title}>I'm Eugene Pashkevich</span>
                     <div className={s.frontendBox}>
                         <div className={s.frontendTitle}>Frontend</div>

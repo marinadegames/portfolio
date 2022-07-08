@@ -29,7 +29,7 @@ export const SkillItem = ({gradient, title, icon, borderColor, shadowColor, colo
             filter: `drop-shadow(4px 6px 0px ${shadowColor})`,
             transition: '0.15s',
         }}>
-            <div style={{
+            <div  style={{
                 color: `${colorFont}`,
                 width: '70%',
                 fontSize: window.screen.width > 1300 ? 25 : 50,
