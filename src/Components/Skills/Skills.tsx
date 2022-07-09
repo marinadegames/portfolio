@@ -21,11 +21,10 @@ import React from 'react';
 export const Skills = () => {
     return (
         <div className={s.skillsContainer} id={'skills'}>
-            <div className={s.title} data-scroll-container>
-                <div style={{display:"flex", justifyContent: "center", alignItems:"center"}}
-                     data-scroll data-scroll-speed="-1" data-scroll-position="right" data-scroll-direction="horizontal">
-                    <span className={s.rotate_title}>Skills</span>
-                </div>
+            <div className={s.title}
+                 data-scroll-section
+                 style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <span className={s.rotate_title}>Skills</span>
             </div>
 
             <div className={s.skillsItems} data-scroll-section>

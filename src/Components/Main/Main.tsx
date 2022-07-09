@@ -7,15 +7,16 @@ import {Link} from "react-scroll";
 
 export const Main = () => {
     return (
-        <div className={s.main} data-scroll-section >
-            <div className={s.mainContainer}>
+        <div className={s.main} >
+            <div className={s.mainContainer} >
                 <div className={s.boxLeft}>
                     <span className={s.title}>I'm Eugene Pashkevich</span>
-                    <div className={s.frontendBox}>
-                        <div data-scroll data-scroll-speed="4" data-scroll-position="top" data-scroll-direction="vertical" className={s.frontendTitle}>Frontend</div>
-                        <span data-scroll data-scroll-speed="4" data-scroll-position="top" data-scroll-direction="vertical" className={s.developerText}>-developer</span>
+                    <div className={s.frontendBox} data-scroll-section>
+                        <div data-scroll data-scroll-speed="1" data-scroll-position="left" data-scroll-direction="horizontal" className={s.frontendTitle}>Frontend</div>
+                        <span data-scroll data-scroll-speed="4" data-scroll-position="left" data-scroll-direction="horizontal" className={s.developerText}>-developer</span>
                     </div>
                     <Link to={'skills'}
+                          data-scroll-section
                           spy={true}
                           smooth={true}
                           offset={-70}
@@ -27,7 +28,7 @@ export const Main = () => {
                         }}/>
                     </Link>
                 </div>
-                <div className={s.boxRight}>
+                <div className={s.boxRight} data-scroll-section>
                     <img data-scroll data-scroll-speed="-4" data-scroll-position="right" data-scroll-direction="horizontal" className={s.avatar} alt={avatar} src={avatar}/>
                 </div>
             </div>

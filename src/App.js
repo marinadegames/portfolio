@@ -24,7 +24,7 @@ export const App = () => {
     return (
         <>
             <div className={s.App} >
-                <div ref={scrollRef} data-scroll-container data-scroll-speed={0.05}>
+                <div ref={scrollRef} data-scroll-container data-scroll-speed={10} >
                     <Header />
                     <Main/>
                     <Skills/>
