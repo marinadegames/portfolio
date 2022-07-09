@@ -4,18 +4,18 @@ import {Link} from "react-scroll";
 
 export const Nav = () => {
     return (
-        <div data-scroll-section className={s.navContainer}>
+        <div className={s.navContainer} >
             <Link to={'skills'} spy={true} smooth={true} offset={-30} isDynamic={true} duration={1000}>
-                <span data-scroll className={s.navItem} >Skills</span>
+                <span data-scroll data-scroll-speed="10" data-scroll-position="top" data-scroll-direction="horizontal" className={s.navItem} >Skills</span>
             </Link>
             <Link to={'footer'} spy={true} smooth={true} offset={-30} isDynamic={true} duration={1000}>
-                <span data-scroll className={s.navItem} >Contacts</span>
+                <span data-scroll data-scroll-speed="10" data-scroll-position="top" data-scroll-direction="horizontal" className={s.navItem} >Contacts</span>
             </Link>
             <Link to={'projects'} spy={true} smooth={true} offset={-30} isDynamic={true} duration={1000}>
-                <span data-scroll className={s.navItem} >Projects</span>
+                <span data-scroll data-scroll-speed="10" data-scroll-position="top" data-scroll-direction="horizontal" className={s.navItem} >Projects</span>
             </Link>
             <Link data-scroll to={'form'} spy={true} smooth={true} offset={-30} isDynamic={true} duration={1000}>
-                <Button data-scrollcolor={"black"} title={'Send me'} styles={{
+                <Button data-scroll  color={"black"} title={'Send me'} styles={{
                     margin: '0 0 0 30px',
                     height: window.screen.width < 1300 ? 90 : 50,
                     width: window.screen.width < 1300 ? 320 : 165,

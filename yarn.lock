@@ -5798,6 +5798,13 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+locomotive-scroll@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-3.0.3.tgz#a15a4ffa55144278ecf261c4cb19d723f4e0cb38"
+  integrity sha512-8zdl5eMLco/XLLTjMTNuuIBUC7Fj2+5+ab9j3bIFFf+UzemJAG+gyRoFQGiFPXXzYRcRu63QT4rK1gajc/4OLg==
+  dependencies:
+    virtual-scroll "git+https://github.com/ayamflow/virtual-scroll.git"
+
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
@@ -7740,11 +7747,6 @@ slash@^4.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
-smooth-scroll@^16.1.3:
-  version "16.1.3"
-  resolved "https://registry.yarnpkg.com/smooth-scroll/-/smooth-scroll-16.1.3.tgz#c5b68194b4186173f9f61065103ae4e26ce36885"
-  integrity sha512-ca9U+neJS/cbdScTBuUTCZvUWNF2EuMCk7oAx3ImdeRK5FPm+xRo9XsVHIkeEVkn7MBRx+ufVEhyveM4ZhaTGA==
-
 sockjs@^0.3.21:
   version "0.3.24"
   resolved "https://registry.yarnpkg.com/sockjs/-/sockjs-0.3.24.tgz#c9bc8995f33a111bea0395ec30aa3206bdb5ccce"
@@ -8204,6 +8206,11 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-emitter@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
 tmpl@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
@@ -8462,6 +8469,12 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+"virtual-scroll@git+https://github.com/ayamflow/virtual-scroll.git":
+  version "2.2.1"
+  resolved "git+https://github.com/ayamflow/virtual-scroll.git#89601f16532efc0bd3a8b650dd7ed89532b010b9"
+  dependencies:
+    tiny-emitter "^2.1.0"
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"

@@ -87,22 +87,22 @@ export const Form = () => {
             <form onSubmit={event => event.preventDefault()}
                   id={'form'}
                   className={s.form}>
-                <div className={s.fromTitle}>Write me</div>
-                <Input value={name}
+                <div data-scroll className={s.fromTitle}>Write me</div>
+                <Input data-scroll value={name}
                        callback={changeNameCallback}
                        placeholder={'Name'}/>
-                <Input value={email}
+                <Input data-scroll value={email}
                        error={errorEmail}
                        callback={changeEmailCallback}
                        errorCallback={changeEmailError}
                        placeholder={'Email'}/>
-                <TextArea placeholder={'Your message'}
+                <TextArea data-scroll placeholder={'Your message'}
                           value={textarea}
                           callback={changeTextareaCallback}
                           styles={{width: window.screen.width > 1000 ? '100%' : '100%'}}/>
                 {isLoading
-                    ? <Spinner size={'100px'} color={'#1747E7'}/>
-                    : <Button title={'Write me!'}
+                    ? <Spinner  size={'100px'} color={'#1747E7'}/>
+                    : <Button data-scroll title={'Write me!'}
                               color={'blue'}
                               disabled={btnDisabled}
                               onClick={sendMeMessage}
@@ -112,7 +112,7 @@ export const Form = () => {
                                   fontSize: window.screen.width > 1000 ? 30 : 50,
                               }}/>}
                 {respMsg.msg &&
-                    <small className={respMsg.error ? s.respMessageError : s.respMessage}>{respMsg.msg}</small>}
+                    <small data-scroll className={respMsg.error ? s.respMessageError : s.respMessage}>{respMsg.msg}</small>}
             </form>
         </div>
     )

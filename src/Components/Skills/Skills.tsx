@@ -16,14 +16,19 @@ import postman_icon from '../../Assets/Images/postman_logo.png'
 import storybook_icon from '../../Assets/Images/storybook.png'
 import figma_icon from '../../Assets/Images/Figma-logo.png'
 import git_icon from '../../Assets/Images/git.png'
+import React from 'react';
 
 export const Skills = () => {
     return (
         <div className={s.skillsContainer} id={'skills'}>
-            <div className={s.title}>
-                <span className={s.rotate_title}>Skills</span>
+            <div className={s.title} data-scroll-container>
+                <div style={{display:"flex", justifyContent: "center", alignItems:"center"}}
+                     data-scroll data-scroll-speed="-1" data-scroll-position="right" data-scroll-direction="horizontal">
+                    <span className={s.rotate_title}>Skills</span>
+                </div>
             </div>
-            <div className={s.skillsItems} >
+
+            <div className={s.skillsItems} data-scroll-section>
                 <SkillItem title={'React'}
                            colorFont={'white'}
                            icon={react_icon}
