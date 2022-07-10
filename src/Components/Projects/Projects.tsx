@@ -18,12 +18,12 @@ const covidKillerDescription = <span>This is my JS game. Made in <b>JS canvas</b
 
 export const Projects = () => {
     return (
-        <div className={s.projectsContainer} data-scroll-section>
-            <div className={s.titleProjects}>
-                <span data-scroll className={s.rotate_title}>Projects</span>
+        <div className={s.projectsContainer}>
+            <div className={s.titleProjects} data-scroll-section>
+                <span className={s.rotate_title}>Projects</span>
             </div>
-            <div className={s.projectItems} id={'projects'}>
-                <ProjectItem data-scroll title={'Moon!msg'}
+            <div className={s.projectItems}  id={'projects'}>
+                <ProjectItem title={'Moon!msg'}
                              backgroundColor={'var(--background)'}
                              borderColor={'#1C4F7C'}
                              icon={moon_icon}
@@ -32,7 +32,7 @@ export const Projects = () => {
                              description={moonMsgDescription}
                              linkGitHub={'https://github.com/marinadegames/moon-msg'}
                              linkPage={'https://marinadegames.github.io/moon-msg/'}/>
-                <ProjectItem data-scroll title={'Cards'}
+                <ProjectItem title={'Cards'}
                              backgroundColor={'white'}
                              borderColor={'#717286'}
                              icon={cards_icon}
@@ -41,7 +41,7 @@ export const Projects = () => {
                              description={cardsDescription}
                              linkGitHub={'https://github.com/ershisan99/cards'}
                              linkPage={'https://ershisan99.github.io/cards/'}/>
-                <ProjectItem data-scroll title={'Moon!tasks'}
+                <ProjectItem title={'Moon!tasks'}
                              backgroundColor={'var(--pink)'}
                              borderColor={'#75569C'}
                              icon={moon_purple_icon}
@@ -50,7 +50,7 @@ export const Projects = () => {
                              description={moonTasksDescription}
                              linkGitHub={'https://github.com/marinadegames/moon-tasks'}
                              linkPage={'https://marinadegames.github.io/moon-tasks/'}/>
-                <ProjectItem data-scroll title={'Moon!tasks'}
+                <ProjectItem title={'Moon!tasks'}
                              subTitle={'mobile 📱'}
                              backgroundColor={'var(--pink)'}
                              borderColor={'#75569C'}
@@ -59,7 +59,7 @@ export const Projects = () => {
                              shadowColor={'#75569C'}
                              description={moonTasksMobileDescription}
                              linkGitHub={'https://github.com/marinadegames/todolist-mobile'}/>
-                <ProjectItem data-scroll title={'Rg-helper'}
+                <ProjectItem title={'Rg-helper'}
                              subTitle={'frontend'}
                              backgroundColor={'var(--black)'}
                              borderColor={'var(--yellow)'}
@@ -70,7 +70,7 @@ export const Projects = () => {
                              description={rgHelperFrontendDescription}
                              linkPage={'https://rg-helper-front.herokuapp.com/'}
                              linkGitHub={'https://github.com/marinadegames/rg-helper-front'}/>
-                <ProjectItem data-scroll title={'Rg-helper'}
+                <ProjectItem title={'Rg-helper'}
                              subTitle={'backend'}
                              backgroundColor={'var(--black)'}
                              borderColor={'var(--yellow)'}
@@ -80,7 +80,7 @@ export const Projects = () => {
                              gitWhite={true}
                              description={rgHelperBackendDescription}
                              linkGitHub={'https://github.com/marinadegames/rg-helper-back'}/>
-                <ProjectItem data-scroll title={'Holy sheep!'}
+                <ProjectItem title={'Holy sheep!'}
                              backgroundColor={'#F2F6F9'}
                              borderColor={'#7595B2'}
                              icon={sheep_icon}
@@ -88,7 +88,7 @@ export const Projects = () => {
                              shadowColor={'#7595B2'}
                              description={holySheepDescription}
                              linkPage={'https://play.google.com/store/apps/details?id=com.MarinadeGames.HolySheep&hl=ru&gl=US'}/>
-                <ProjectItem data-scroll title={'Covid Killer'}
+                <ProjectItem title={'Covid Killer'}
                              subTitle={'game'}
                              backgroundColor={'white'}
                              borderColor={'black'}

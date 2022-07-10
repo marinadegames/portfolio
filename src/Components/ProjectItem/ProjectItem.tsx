@@ -42,12 +42,15 @@ export const ProjectItem = ({
     }
 
     return (
-        <>
-            <div className={s.projectItem} style={{
-                background: backgroundColor,
-                border: `2px solid ${borderColor}`,
-                filter: `drop-shadow(4px 6px 0px ${shadowColor})`,
-            }}>
+        <div data-scroll-section>
+            <div
+                className={s.projectItem}
+                data-scroll data-scroll-speed={2} data-scroll-position="bottom" data-scroll-direction="vertical"
+                style={{
+                    background: backgroundColor,
+                    border: `2px solid ${borderColor}`,
+                    filter: `drop-shadow(4px 6px 0px ${shadowColor})`,
+                }}>
                 <div className={s.box}>
                     <img className={s.icon} src={icon} alt={`${icon}`}/>
                     <div className={s.title} style={{color: colorFont}}>
@@ -78,7 +81,7 @@ export const ProjectItem = ({
                     </a>}
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

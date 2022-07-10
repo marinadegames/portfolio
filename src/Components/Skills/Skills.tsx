@@ -22,12 +22,12 @@ export const Skills = () => {
     return (
         <div className={s.skillsContainer} id={'skills'}>
             <div className={s.title}
-                 data-scroll-section
+                 data-scroll-section={true}
                  style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <span className={s.rotate_title}>Skills</span>
             </div>
 
-            <div className={s.skillsItems} data-scroll-section>
+            <div className={s.skillsItems}>
                 <SkillItem title={'React'}
                            colorFont={'white'}
                            icon={react_icon}
